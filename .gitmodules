@@ -1,0 +1,12 @@
+[submodule "components/QC8150"]
+	path = components/QC8150
+	url = https://github.com/WOA-Project/windows_silicon_qcom_hana
+[submodule "components/QC8350"]
+	path = components/QC8350
+	url = https://github.com/WOA-Project/windows_silicon_qcom_lahaina
+[submodule "components/Devices/Epsilon"]
+	path = components/Devices/Epsilon
+	url = https://github.com/WOA-Project/windows_oem_surface_dual_screen_epsilon
+[submodule "components/Devices/Zeta"]
+	path = components/Devices/Zeta
+	url = https://github.com/WOA-Project/windows_oem_surface_dual_screen_zeta

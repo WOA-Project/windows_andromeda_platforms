@@ -1,0 +1,15 @@
+[Drivers]
+\components\ANYSOC\Hardware\HARDWARE.DOCKING.SURFACE=""
+\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE=""
+\components\ANYSOC\Hardware\HARDWARE.POSTURES.DESKTOP=""
+\components\ANYSOC\Hardware\HARDWARE.USB.FSA4480=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL_EXTRAS=""
+\components\Devices\Epsilon=""
+\components\QC8150=""
+
+[Apps]
+\apps\IPA=""

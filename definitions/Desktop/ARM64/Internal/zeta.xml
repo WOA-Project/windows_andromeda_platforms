@@ -1,0 +1,333 @@
+<!-- @@BEGIN_SDKSPLIT
+  
+  Andromeda888/OEMZE BSP Definition file v2408.1
+  
+  This is the file that dictates which drivers to install onto Andromeda888 devices
+  It also instructs which apps should be installed onto the target device.
+  
+  !!!WARNING!!!
+  
+  This file is both automatically generated and manually edited thereafter.
+  Get in touch before editing.
+  
+  !!!LEGAL!!!
+  
+  Use of Surface Duo 1 and Surface Duo 2 firmware files is governed by the terms
+  of the Surface Duo E-OS License, in which is specified the use of firmware files
+  is strictly only allowed for use on Surface Duo devices.
+  
+  This product incorporates copyrighted material from the DuoWoA authors.
+  The license terms for these products are provided below.
+  
+____________DuoWoA authors License Terms Begin Here___________________
+MIT License
+
+Copyright (c) 2018-2024 WOA Project
+Copyright (c) 2018-2024 The LumiaWoA authors
+Copyright (c) 2018-2024 The DuoWoA authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+__________________________________DuoWoA authors License Terms End Here____________________________________
+@@END_SDKSPLIT -->
+<FeatureManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate" Revision="1" SchemaVersion="1.3">
+    <Drivers>
+        <BaseDriverPackages>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.DOCKING.SURFACE\Drivers" Name="AccessoryCenterHSADriver.inf" ID="AccessoryCenterHSADriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.DOCKING.SURFACE\Drivers" Name="DevicesTelemetryServiceDriver.inf" ID="DevicesTelemetryServiceDriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.DOCKING.SURFACE\Firmware" Name="RealtekFwUpdate.inf" ID="RealtekFwUpdate"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.DOCKING.SURFACE\Firmware" Name="SurfaceThunderbolt4DockFwUpdate.inf" ID="SurfaceThunderbolt4DockFwUpdate"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\BleLc" Name="SurfacePenBleLcAddrAdaptationDriver.inf" ID="SurfacePenBleLcAddrAdaptationDriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\CFU" Name="SurfaceCFUOverHid.inf" ID="SurfaceCFUOverHid"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\CFU" Name="SurfacePenCfuOverBleLc.inf" ID="SurfacePenCfuOverBleLc"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Dial" Name="SurfaceDialFilter.inf" ID="SurfaceDialFilter"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Dial" Name="SurfaceDialIntegration.inf" ID="SurfaceDialIntegration"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\HidSpi" Name="hidspi_km.inf" ID="hidspi_km"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\HidSpi" Name="hidspi_non_workstation.inf" ID="hidspi_non_workstation"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Pen" Name="surfacependriver.inf" ID="surfacependriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Pen\090E" Name="surfacePenClickFilter.inf" ID="surfacePenClickFilter"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Pen\090E" Name="SurfacePenIntegration.inf" ID="SurfacePenIntegration"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Pen\0921" Name="SurfacePen217Integration.inf" ID="SurfacePen217Integration"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Pen\0953" Name="SurfacePen0953Integration.inf" ID="SurfacePen0953Integration"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Pen\0993" Name="SurfaceCFUOverHid.inf" ID="SurfaceCFUOverHid"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\TouchPanelAlignment" Name="SurfaceTouchPanelAlignment.inf" ID="SurfaceTouchPanelAlignment"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\WirelessTypeCover" Name="SurfaceOobPairingOptInPackage.inf" ID="SurfaceOobPairingOptInPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Extensions\FriendlyNames" Name="SurfaceDuoHIDFriendlyNames.inf" ID="SurfaceDuoHIDFriendlyNames"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Extensions\FriendlyNames" Name="SurfaceHIDFriendlyNames.inf" ID="SurfaceHIDFriendlyNames"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Extensions\Misc" Name="SurfaceHidClassSettingsExtensionPackage.inf" ID="SurfaceHidClassSettingsExtensionPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Extensions\Pen\07c5" Name="SurfacePen.inf" ID="SurfacePen"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Extensions\PenWirelessCharger" Name="SurfacePenWirelessChargerHotkey.inf" ID="SurfacePenWirelessChargerHotkey"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Extensions\WirelessTypeCover" Name="SurfaceAppCompanionExtensionPackage.inf" ID="SurfaceAppCompanionExtensionPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Extensions\WirelessTypeCover" Name="SurfaceTouchpadSettingsExtensionPackage.inf" ID="SurfaceTouchpadSettingsExtensionPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\Charger" Name="SurfaceSlimPenChargerFwUpdate.inf" ID="SurfaceSlimPenChargerFwUpdate"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\Dial" Name="SurfaceDialFwUpdate.inf" ID="SurfaceDialFwUpdate"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\Pen\0921" Name="SurfacePen217FwUpdate.inf" ID="SurfacePen217FwUpdate"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\Pen\0953" Name="SurfacePen0953CfuOverBleLcExtnPackage.inf" ID="SurfacePen0953CfuOverBleLcExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\Pen\0953" Name="SurfacePen0953FirmwareUpdate.inf" ID="SurfacePen0953FirmwareUpdate"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\Pen\0953\Legacy" Name="SurfacePen0953FwUpdate.inf" ID="SurfacePen0953FwUpdate"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\Pen\0993" Name="SurfacePen0993BleLcFwUpdate.inf" ID="SurfacePen0993BleLcFwUpdate"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\Pen\0C0F" Name="SurfacePen0C0FCfuOverBleLcExtnPackage.inf" ID="SurfacePen0C0FCfuOverBleLcExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\Pen\0C0F" Name="SurfacePen0C0FFirmwareUpdate.inf" ID="SurfacePen0C0FFirmwareUpdate"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\WirelessTypeCover" Name="SurfaceTouchpadG7CfuOverHidExtnPackage.inf" ID="SurfaceTouchpadG7CfuOverHidExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Hardware\HARDWARE.POSTURES.DESKTOP" Name="PostureSensor.inf" ID="PostureSensor"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Settings\Version" Name="phonereleaseversion.inf" ID="phonereleaseversion"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\DesktopSignature" Name="desktopsignature.inf" ID="desktopsignature"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\SSDE" Name="ssde.inf" ID="ssde"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\FMRadio" Name="FM Radio Interface.inf" ID="FM Radio Interface"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\MobileBridge" Name="MobileFrequencyModulationService.inf" ID="MobileFrequencyModulationService"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE\Services\MobileBridgeUser" Name="MobileHapticsService.inf" ID="MobileHapticsService"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Drivers\sTPM" Name="mismptf.inf" ID="mismptf"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Drivers\UsbNcmFn" Name="UsbNcmFn.inf" ID="UsbNcmFn"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Services\MTP" Name="MTPDesktop.inf" ID="MTPDesktop"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Settings\Bluetooth" Name="bthdefaults.inf" ID="bthdefaults"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS\Source\Settings\USBFn" Name="usbdefaults.inf" ID="usbdefaults"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL_EXTRAS\EMBDeviceMetadata" Name="EMBDeviceMetadata.inf" ID="EMBDeviceMetadata"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\AudioCoreExt" Name="AudioCoreExt.inf" ID="AudioCoreExt"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\EMB" Name="emb.inf" ID="emb"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\WindowsPhone" Name="WindowsPhone.inf" ID="WindowsPhone"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Customizations" Name="SurfaceDuo2_MTPOEM.inf" ID="SurfaceDuo2_MTPOEM"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Audio\Dolby" Name="dax3_swc_aposvc_arm64.inf" ID="dax3_swc_aposvc_arm64"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Audio\Dolby" Name="dax3_swc_hsa_arm64.inf" ID="dax3_swc_hsa_arm64"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Biometric" Name="fpc_wbdi_um_spi.inf" ID="fpc_wbdi_um_spi"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\DisplayConfigurator" Name="SurfaceDisplayConfiguratorService.inf" ID="SurfaceDisplayConfiguratorService"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\Monitor" Name="SurfacePanel.inf" ID="SurfacePanel"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\OemPanel" Name="SurfaceOemPanel.inf" ID="SurfaceOemPanel"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Integration\eSIM" Name="gtopatchdrvumdf.inf" ID="gtopatchdrvumdf"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Integration\Power" Name="SurfacePowerMeterDriver.inf" ID="SurfacePowerMeterDriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Integration\SAR" Name="SurfaceSarManager.inf" ID="SurfaceSarManager"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Integration\Service" Name="SurfaceServiceNullDriver.inf" ID="SurfaceServiceNullDriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Integration\System" Name="SurfaceIntegrationDriver.inf" ID="SurfaceIntegrationDriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Integration\Thermal" Name="SurfaceThermalProxy.inf" ID="SurfaceThermalProxy"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Integration\Thermal" Name="SurfaceThermalProxyFilter.inf" ID="SurfaceThermalProxyFilter"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\NFC" Name="NxpNfcClientDriver.inf" ID="NxpNfcClientDriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Provisioning" Name="SurfaceSOCPartitionFilter.inf" ID="SurfaceSOCPartitionFilter"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Touch" Name="SurfaceHIDConfigFlags.inf" ID="SurfaceHIDConfigFlags"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Touch" Name="SurfaceNxpNfcWirelessChargingDriver.inf" ID="SurfaceNxpNfcWirelessChargingDriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Touch\RS5" Name="SurfaceTouchPenProcessorUpdateRs5.inf" ID="SurfaceTouchPenProcessorUpdateRs5"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Touch\RS6" Name="SurfaceTouchPenProcessorUpdateRs6.inf" ID="SurfaceTouchPenProcessorUpdateRs6"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Audio\Dolby" Name="dax3_ext_qc.inf" ID="dax3_ext_qc"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Audio\SurfaceIHVAudioFilter" Name="SurfaceIhvAudioFilterDriver.inf" ID="SurfaceIhvAudioFilterDriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Graphics" Name="SurfaceDisplayConfiguratorExtension.inf" ID="SurfaceDisplayConfiguratorExtension"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Integration" Name="SurfaceDuo2_gtopatchext.inf" ID="SurfaceDuo2_gtopatchext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Storage" Name="SurfaceSfuHN8T05BZGKX015ExtnPackage.inf" ID="SurfaceSfuHN8T05BZGKX015ExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Storage" Name="SurfaceSfuHN8T15BZGKX016ExtnPackage.inf" ID="SurfaceSfuHN8T15BZGKX016ExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Storage" Name="SurfaceSfuHN8T25BZGKX017ExtnPackage.inf" ID="SurfaceSfuHN8T25BZGKX017ExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Storage" Name="SurfaceSfuKLUDG4UHDCB0E1ExtnPackage.inf" ID="SurfaceSfuKLUDG4UHDCB0E1ExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Storage" Name="SurfaceSfuKLUEG8UHDCB0E1ExtnPackage.inf" ID="SurfaceSfuKLUEG8UHDCB0E1ExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Storage" Name="SurfaceSfuKLUFG8RHDBB0E1ExtnPackage.inf" ID="SurfaceSfuKLUFG8RHDBB0E1ExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Storage" Name="SurfaceSfuTHGJFAT0T44BAILBExtnPackage.inf" ID="SurfaceSfuTHGJFAT0T44BAILBExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Storage" Name="SurfaceSfuTHGJFAT1T84BAIRBExtnPackage.inf" ID="SurfaceSfuTHGJFAT1T84BAIRBExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Storage" Name="SurfaceSfuTHGJFAT2T84BAIRBExtnPackage.inf" ID="SurfaceSfuTHGJFAT2T84BAIRBExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Touch" Name="SurfaceDigitizerHidSpiExtnPackage.inf" ID="SurfaceDigitizerHidSpiExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\Touch" Name="SurfaceDuoTouchPenProcessorFriendlyNames.inf" ID="SurfaceDuoTouchPenProcessorFriendlyNames"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Extensions\WLAN" Name="SurfaceDuo2_wlanext.inf" ID="SurfaceDuo2_wlanext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Firmware" Name="SurfaceSfuHN8T05BZGKX015FwPackage.inf" ID="SurfaceSfuHN8T05BZGKX015FwPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Firmware" Name="SurfaceSfuHN8T15BZGKX016FwPackage.inf" ID="SurfaceSfuHN8T15BZGKX016FwPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Firmware" Name="SurfaceSfuHN8T25BZGKX017FwPackage.inf" ID="SurfaceSfuHN8T25BZGKX017FwPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Firmware" Name="SurfaceSfuKLUDG4UHDCB0E1FwPackage.inf" ID="SurfaceSfuKLUDG4UHDCB0E1FwPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Firmware" Name="SurfaceSfuKLUEG8UHDCB0E1FwPackage.inf" ID="SurfaceSfuKLUEG8UHDCB0E1FwPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Firmware" Name="SurfaceSfuKLUFG8RHDBB0E1FwPackage.inf" ID="SurfaceSfuKLUFG8RHDBB0E1FwPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Firmware" Name="SurfaceSfuTHGJFAT0T44BAILBFwPackage.inf" ID="SurfaceSfuTHGJFAT0T44BAILBFwPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Firmware" Name="SurfaceSfuTHGJFAT1T84BAIRBFwPackage.inf" ID="SurfaceSfuTHGJFAT1T84BAIRBFwPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Firmware" Name="SurfaceSfuTHGJFAT2T84BAIRBFwPackage.inf" ID="SurfaceSfuTHGJFAT2T84BAIRBFwPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Firmware" Name="SurfaceTouchG6FwUpdateExtnPackage.inf" ID="SurfaceTouchG6FwUpdateExtnPackage"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Audio\AudMiniport" Name="SurfaceDuo2_audminiport_Base.inf" ID="SurfaceDuo2_audminiport_Base"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Battery\BatteryMiniclass" Name="SurfaceDuo2_battminiclass.inf" ID="SurfaceDuo2_battminiclass"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Bluetooth\BTFMUART_HSP" Name="SurfaceDuo2_btfmuart_hsp8350.inf" ID="SurfaceDuo2_btfmuart_hsp8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Camera\AuxilarySensor" Name="SurfaceDuo2_camauxsensor.inf" ID="SurfaceDuo2_camauxsensor"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Camera\AVStream" Name="SurfaceDuo2_camavs.inf" ID="SurfaceDuo2_camavs"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Camera\Flash" Name="SurfaceDuo2_camflash.inf" ID="SurfaceDuo2_camflash"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Camera\FrontSensor" Name="SurfaceDuo2_camfrontsensor.inf" ID="SurfaceDuo2_camfrontsensor"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Camera\ISP" Name="SurfaceDuo2_camisp.inf" ID="SurfaceDuo2_camisp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Camera\RearSensor" Name="SurfaceDuo2_camrearsensor.inf" ID="SurfaceDuo2_camrearsensor"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Camera\TelePhotoSensor" Name="SurfaceDuo2_camtelesensor.inf" ID="SurfaceDuo2_camtelesensor"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Camera\UltraWideSensor" Name="SurfaceDuo2_camultrawidesensor.inf" ID="SurfaceDuo2_camultrawidesensor"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Cellular\IPA" Name="surfaceduo2_ipa.inf" ID="surfaceduo2_ipa"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\EVA" Name="SurfaceDuo2_eva.inf" ID="SurfaceDuo2_eva"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Graphics\DXKM" Name="SurfaceDuo2_dx.inf" ID="SurfaceDuo2_dx"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\SecurityProcessor" Name="SurfaceDuo2_sp8350.inf" ID="SurfaceDuo2_sp8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Sensors\SSC" Name="SurfaceDuo2_sensors.inf" ID="SurfaceDuo2_sensors"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Subsystems\CombinedSubsystem" Name="SurfaceDuo2_subsys.inf" ID="SurfaceDuo2_subsys"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\WLAN\Core" Name="SurfaceDuo2_wlan.inf" ID="SurfaceDuo2_wlan"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Audio\ACDB\AND" Name="SurfaceDuo2_acsp_and8350.inf" ID="SurfaceDuo2_acsp_and8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Audio\AudMiniport\AND" Name="SurfaceDuo2_audiominiext_and8350.inf" ID="SurfaceDuo2_audiominiext_and8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Audio\Device\AND" Name="SurfaceDuo2_aucdext_and8350.inf" ID="SurfaceDuo2_aucdext_and8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Audio\ListenSoundModel\ComponentExtension" Name="SurfaceDuo2_ListenSM.inf" ID="SurfaceDuo2_ListenSM"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Bluetooth" Name="SurfaceDuo2_btfmuart_ext_swiftpairenable8350.inf" ID="SurfaceDuo2_btfmuart_ext_swiftpairenable8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Bluetooth" Name="SurfaceDuo2_btfmuartext.inf" ID="SurfaceDuo2_btfmuartext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Camera\AuxilarySensor" Name="SurfaceDuo2_camauxsensorextension.inf" ID="SurfaceDuo2_camauxsensorextension"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Camera\AVStream" Name="SurfaceDuo2_camavsext.inf" ID="SurfaceDuo2_camavsext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Camera\Flash" Name="SurfaceDuo2_camflashext.inf" ID="SurfaceDuo2_camflashext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Camera\FrontSensor" Name="SurfaceDuo2_camfrontsensorextension.inf" ID="SurfaceDuo2_camfrontsensorextension"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Camera\ISP" Name="SurfaceDuo2_camispext.inf" ID="SurfaceDuo2_camispext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Camera\JPEGEncoder" Name="SurfaceDuo2_camjpegeext.inf" ID="SurfaceDuo2_camjpegeext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Camera\MIPICSI" Name="SurfaceDuo2_cammipicsiext.inf" ID="SurfaceDuo2_cammipicsiext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Camera\Platform" Name="SurfaceDuo2_camplatformext.inf" ID="SurfaceDuo2_camplatformext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Camera\RearSensor" Name="SurfaceDuo2_camrearsensorextension.inf" ID="SurfaceDuo2_camrearsensorextension"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Camera\TelePhotoSensor" Name="SurfaceDuo2_camtelesensorextension.inf" ID="SurfaceDuo2_camtelesensorextension"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Camera\UltraWideSensor" Name="SurfaceDuo2_camultrawidesensorextension.inf" ID="SurfaceDuo2_camultrawidesensorextension"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Cellular\RILComponentExtension" Name="SurfaceDuo2_WMRil_mbbext.inf" ID="SurfaceDuo2_WMRil_mbbext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\EVA" Name="SurfaceDuo2_evaext.inf" ID="SurfaceDuo2_evaext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Graphics\DXKM\AND" Name="SurfaceDuo2_dxext_and8350.inf" ID="SurfaceDuo2_dxext_and8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\HexagonLoader\PIL" Name="SurfaceDuo2_pilext8350.inf" ID="SurfaceDuo2_pilext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\HumanPresence\AlwaysOnCVSensor" Name="SurfaceDuo2_AlwaysOnCVSensorext.inf" ID="SurfaceDuo2_AlwaysOnCVSensorext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\PMIC\Apps" Name="SurfaceDuo2_pmicappsext.inf" ID="SurfaceDuo2_pmicappsext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\PMIC\BatteryCurrentLimiter" Name="surfaceduo2_fgbclext8350.inf" ID="surfaceduo2_fgbclext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Sensors\AND" Name="SurfaceDuo2_sensorsconfig.inf" ID="SurfaceDuo2_sensorsconfig"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\SOC\IOMMU" Name="SurfaceDuo2_iommuext.inf" ID="SurfaceDuo2_iommuext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\SOC\TrEE\OEM" Name="SurfaceDuo2_TreeExtOem.inf" ID="SurfaceDuo2_TreeExtOem"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\SOC\TrEE\QCOM" Name="SurfaceDuo2_ext_QCTree8350.inf" ID="SurfaceDuo2_ext_QCTree8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Subsystems\Audio" Name="SurfaceDuo2_ext_adsp8350.inf" ID="SurfaceDuo2_ext_adsp8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Subsystems\Compute" Name="SurfaceDuo2_ext_cdsp8350.inf" ID="SurfaceDuo2_ext_cdsp8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Subsystems\Modem" Name="SurfaceDuo2_ext_mpss8350.inf" ID="SurfaceDuo2_ext_mpss8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Subsystems\ModemConfig" Name="SurfaceDuo2_mcfg8350.inf" ID="SurfaceDuo2_mcfg8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Subsystems\SecureProcessor" Name="SurfaceDuo2_ext_spss8350.inf" ID="SurfaceDuo2_ext_spss8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Extensions\Subsystems\Sensors" Name="SurfaceDuo2_ext_scss8350.inf" ID="SurfaceDuo2_ext_scss8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Libraries\Cellular\VideoOverLTESink" Name="SurfaceDuo2_imssink_mbbext.inf" ID="SurfaceDuo2_imssink_mbbext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Libraries\Cellular\VideoOverLTESource" Name="SurfaceDuo2_imssrc_mbbext.inf" ID="SurfaceDuo2_imssrc_mbbext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Services\Cellular\IMSData" Name="SurfaceDuo2_IMSDataDaemon_mbbext.inf" ID="SurfaceDuo2_IMSDataDaemon_mbbext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Services\Cellular\IMSQMI" Name="SurfaceDuo2_IMSQMIDaemon_mbbext.inf" ID="SurfaceDuo2_IMSQMIDaemon_mbbext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Services\RCS" Name="SurfaceDuo2_RCSPresSvc_mbbext.inf" ID="SurfaceDuo2_RCSPresSvc_mbbext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Settings" Name="MultiScreenExperience.inf" ID="MultiScreenExperience"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Settings" Name="oled.inf" ID="oled"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Settings" Name="SurfaceDuo2_DeviceInfo.inf" ID="SurfaceDuo2_DeviceInfo"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Setup\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Setup\DesktopSetup" Name="desktopsetup.inf" ID="desktopsetup"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\ADCM" Name="qcadcm8350.inf" ID="qcadcm8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\ListenSoundModel" Name="QCListenSM_swc8350.inf" ID="QCListenSM_swc8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\Orientation" Name="AudioService8350.inf" ID="AudioService8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\RPC\ADSPRPC" Name="qcadsprpc8350.inf" ID="qcadsprpc8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\RPC\ADSPRPCD" Name="qcadsprpcd8350.inf" ID="qcadsprpcd8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Audio\Slimbus" Name="qcslimbus8350.inf" ID="qcslimbus8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl8350.inf" ID="qcfgbcl8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Bluetooth\AddVSCRegistry" Name="qcbtaddvscregistry8350.inf" ID="qcbtaddvscregistry8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\JPEGEncoder" Name="qccamjpege8350.inf" ID="qccamjpege8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Camera\MIPICSI" Name="qccammipicsi8350.inf" ID="qccammipicsi8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\5GNRCoexistanceManager" Name="qc5gnrcoexmgr8350.inf" ID="qc5gnrcoexmgr8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\CCID" Name="qcccidbridge8350.inf" ID="qcccidbridge8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\DataBus" Name="qcdatabus8350.inf" ID="qcdatabus8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\DeepStandby" Name="qcdeepstandbymdm8350.inf" ID="qcdeepstandbymdm8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\DiagBridge" Name="QCDiagBridge.inf" ID="QCDiagBridge"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\DiagCSI" Name="qcdiagcsi8350.inf" ID="qcdiagcsi8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\DiagRouter" Name="qcdiagrouter8350.inf" ID="qcdiagrouter8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\DPL" Name="qcdplbridge8350.inf" ID="qcdplbridge8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\IPCRouter" Name="qcipcrouter8350.inf" ID="qcipcrouter8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\LinkLocal" Name="qclinklocal.wp8350.inf" ID="qclinklocal.wp8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\MBBNetAdapter" Name="qcmbbnetadapter8350.inf" ID="qcmbbnetadapter8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\ModemBridge" Name="qcmbrg8350.inf" ID="qcmbrg8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\PowerDown" Name="qcwwanpowerdown.inf" ID="qcwwanpowerdown"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\PSAutoReg" Name="qcpsautoreg8350.inf" ID="qcpsautoreg8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\QMUX" Name="QmuxMdm.inf" ID="QmuxMdm"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\RemoteAT" Name="qcremoteat8350.inf" ID="qcremoteat8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\RemoteFS" Name="qcremotefs8350.inf" ID="qcremotefs8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\RevRmnet" Name="qcrevrmnet8350.inf" ID="qcrevrmnet8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\RmNetBridge" Name="qcrmnetbridge8350.inf" ID="qcrmnetbridge8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\ThermalMDM" Name="qcthermalmdm.inf" ID="qcthermalmdm"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Cellular\UDE" Name="qcude.inf" ID="qcude"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\FMRadio" Name="qcfmtransport8350.inf" ID="qcfmtransport8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\GPS" Name="qcgnss8350.inf" ID="qcgnss8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Graphics\QDCM" Name="qdcmlib8350.inf" ID="qdcmlib8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\HumanPresence\AlwaysOnCVSensor" Name="qcAlwaysOnCVSensor.inf" ID="qcAlwaysOnCVSensor"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\HumanPresence\HumanPresenceSensor" Name="qcHumanPresenceSensor.inf" ID="qcHumanPresenceSensor"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SAR" Name="qSarMgr.inf" ID="qSarMgr"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Shutdown" Name="qcshutdownsvc.inf" ID="qcshutdownsvc"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Buses\GLINK" Name="qcglink8350.inf" ID="qcglink8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Buses\GPI" Name="qcgpi8350.inf" ID="qcgpi8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Diagnostic\QWPP" Name="qwpp8350.inf" ID="qwpp8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\GPIO" Name="qcgpio8350.inf" ID="qcgpio8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\HexagonLoader\PIL" Name="qcpil.inf" ID="qcpil"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\HexagonLoader\SecureKernel" Name="QcSkExt8350.inf" ID="QcSkExt8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\I2C" Name="qci2c8350.inf" ID="qci2c8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\IOMMU" Name="qciommu.inf" ID="qciommu"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\IPCC" Name="qcipcc8350.inf" ID="qcipcc8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\LED" Name="qchwnled8350.inf" ID="qchwnled8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PCIe" Name="qcppx8350.inf" ID="qcppx8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\Apps" Name="QcPmicApps8350.inf" ID="QcPmicApps8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\Core" Name="qcpmic8350.inf" ID="qcpmic8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\GLINK" Name="QcPmicGlink8350.inf" ID="QcPmicGlink8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\GPIO" Name="qcpmicgpio8350.inf" ID="qcpmicgpio8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PowerManagement" Name="qcpep.wp8350.inf" ID="qcpep.wp8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Provisioning" Name="QcSOCPartition.inf" ID="QcSOCPartition"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\ResetPower\CrashDumpInjector" Name="qccdi8350.inf" ID="qccdi8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\ResetPower\ResetProtectionEnabler" Name="qcrpen.inf" ID="qcrpen"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\SMMU" Name="qcsmmu8350.inf" ID="qcsmmu8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\SPI" Name="qcspi8350.inf" ID="qcspi8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\SPMI" Name="qcspmi8350.inf" ID="qcspmi8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\BusAccessModule" Name="qckmbam8350.inf" ID="qckmbam8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\CacheController" Name="qcsyscache8350.inf" ID="qcsyscache8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\SCM" Name="qcscm.inf" ID="qcscm"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\System\SecApp" Name="qcsecapp.inf" ID="qcsecapp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\Transports" Name="QcTftpKmdf.inf" ID="QcTftpKmdf"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\TrEE" Name="QcTrEE.inf" ID="QcTrEE"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\UART" Name="qcuart8350.inf" ID="qcuart8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\VoltageCurrentMonitoring" Name="qcadc8350.inf" ID="qcadc8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\ConnectionSecurity" Name="qcconnectionsecurity8350.inf" ID="qcconnectionsecurity8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\ModemProcessor" Name="qcmpss8350.inf" ID="qcmpss8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\ProtectionDomainServiceRegistry" Name="qcpdsr.inf" ID="qcpdsr"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\SSGServices" Name="qcSSGServicesUMD.inf" ID="qcSSGServicesUMD"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\Subsystems\ThermalMgr" Name="qcSubsysThermalMgr.inf" ID="qcSubsysThermalMgr"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\USBFn\Interfaces" Name="ufnserialcomposite.inf" ID="ufnserialcomposite"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\USBFn\SuperSpeedController" Name="qcusbfn8350.inf" ID="qcusbfn8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\USBFn\SuperSpeedFilter" Name="QcUsbFnSsFilter8350.inf" ID="QcUsbFnSsFilter8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\USBHost" Name="QcXhciFilter8350.inf" ID="QcXhciFilter8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\VibrationMotor" Name="qchwnhaptics8350.inf" ID="qchwnhaptics8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\WLAN\Notifier" Name="qcwifinotifiersrvc.inf" ID="qcwifinotifiersrvc"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\WLAN\SleepMgr" Name="qcWlanSleepMgr8350.inf" ID="qcWlanSleepMgr8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\ListenSoundModel\Calibration" Name="QCListenSM_swc_ext8350.inf" ID="QCListenSM_swc_ext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Cellular\5GNRCoexistanceManager" Name="qc5gnrcoexmgr_ext8350.inf" ID="qc5gnrcoexmgr_ext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Cellular\EMBComponentExtension" Name="qcwmrilextension8350.inf" ID="qcwmrilextension8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Cellular\IPA" Name="qcipaext8350.inf" ID="qcipaext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Cellular\MBBNetAdapter" Name="qcmbbnetadapter_ext8350.inf" ID="qcmbbnetadapter_ext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Cellular\QMUX" Name="QmuxMdmExtension.inf" ID="QmuxMdmExtension"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\FMRadio" Name="qcfmtransportextension8350.inf" ID="qcfmtransportextension8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\HexagonLoader\PILFilter" Name="qcpilfilterext.inf" ID="qcpilfilterext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\PMIC\Core" Name="qcpmicext8350.inf" ID="qcpmicext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\PowerManagement" Name="qcpepextension8350.inf" ID="qcpepextension8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\WLAN" Name="qcwlan_ext8350.inf" ID="qcwlan_ext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Libraries\Cellular\RadioInterfaceLayer" Name="qcWMRil8350.inf" ID="qcWMRil8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Libraries\FMRadio" Name="qcfmminiport.inf" ID="qcfmminiport"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\ProvisioningPkgs" Name="qcppmsettings8350.inf" ID="qcppmsettings8350"/>
+        </BaseDriverPackages>
+    </Drivers>
+    <AppX>
+        <AppXPackages>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Framework.2.2.appx" ID="Microsoft.NET.Native.Framework.2.2"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Framework.x64.1.3.Appx" ID="Microsoft.NET.Native.Framework.x64.1.3"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Runtime.2.2.appx" ID="Microsoft.NET.Native.Runtime.2.2"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.NET.Native.Runtime.x64.1.4.Appx" ID="Microsoft.NET.Native.Runtime.x64.1.4"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.UI.Xaml.2.8.appx" ID="Microsoft.UI.Xaml.2.8"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM.140.00.appx" ID="Microsoft.VCLibs.ARM.140.00"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM64.14.00.appx" ID="Microsoft.VCLibs.ARM64.14.00"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.ARM64.14.00.Desktop.appx" ID="Microsoft.VCLibs.ARM64.14.00.Desktop"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Frameworks" Name="Microsoft.VCLibs.x64.14.00.appx" ID="Microsoft.VCLibs.x64.14.00"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Airwaves" Name="LumiaWOA.Airwaves_btf4vqatnxdpt.appxbundle" ID="LumiaWOA.Airwaves_btf4vqatnxdpt"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Chat" Name="LumiaWOA.Chat_btf4vqatnxdpt.msixbundle" ID="LumiaWOA.Chat_btf4vqatnxdpt"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\CommsEnhancement" Name="Comms.Apps.CommsEnhancement_ARM.appxbundle" ID="Microsoft.BlockandFilterglobal_8wekyb3d8bbwe" LicenseFile="Comms.Apps.CommsEnhancement_License_arm.xml"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\CommsEnhancement" Name="Comms.Apps.CommsEnhancement.CN_ARM.appxbundle" ID="Microsoft.BlockandFilter_8wekyb3d8bbwe"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Dialer" Name="LumiaWOA.Dialer_mgf8b6qyy0nb4.msixbundle" ID="LumiaWOA.Dialer_mgf8b6qyy0nb4"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Messaging" Name="Comms.Apps.Messaging_ARM64.AppxBundle" ID="Microsoft.Messaging_8wekyb3d8bbwe" LicenseFile="Comms.Apps.Messaging_License.xml"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\Phone" Name="Comms.Apps.Calls_ARM.appxbundle" ID="Microsoft.CommsPhone_8wekyb3d8bbwe" LicenseFile="Comms.Apps.Calls_License.xml"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\SurfaceApp" Name="DuoWOA.SurfaceApp_btf4vqatnxdpt.msixbundle" ID="DuoWOA.SurfaceApp_btf4vqatnxdpt"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\SurfaceHub_Desktop" Name="Microsoft.SurfaceHub_8wekyb3d8bbwe.Msixbundle" ID="Microsoft.SurfaceHub_8wekyb3d8bbwe" LicenseFile="Microsoft.SurfaceHub_8wekyb3d8bbwe.xml"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\TruePaint" Name="Microsoft.5967852151392_8wekyb3d8bbwe.AppxBundle" ID="Microsoft.5967852151392_8wekyb3d8bbwe"/>
+            <PackageFile Path="$(mspackageroot)\apps\IPA\zStore" Name="zStore_ARM.appxbundle" ID="zStore_ARM" LicenseFile="zStore_License.xml"/>
+        </AppXPackages>
+    </AppX>
+</FeatureManifest>
