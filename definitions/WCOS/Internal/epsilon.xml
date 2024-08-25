@@ -1,6 +1,6 @@
 <!-- @@BEGIN_SDKSPLIT
   
-  Andromeda855/OEMEP BSP Definition file v2408.1
+  Andromeda855/OEMEP BSP Definition file v2409.1
   
   This is the file that dictates which drivers to install onto Andromeda855 devices
   It also instructs which apps should be installed onto the target device.
@@ -135,25 +135,25 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Firmware" Name="SurfaceTouchFw.inf" ID="SurfaceTouchFw"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Audio\AudMiniport" Name="SurfaceDuo_audmini.inf" ID="SurfaceDuo_audmini"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Audio\Device" Name="SurfaceDuo_auddev.inf" ID="SurfaceDuo_auddev"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Battery" Name="SurfaceDuo_battminiclass.inf" ID="SurfaceDuo_battminiclass"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Battery" Name="SurfaceDuo_battmngr.inf" ID="SurfaceDuo_battmngr"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Battery\BatteryManager" Name="SurfaceDuo_battmngr.inf" ID="SurfaceDuo_battmngr"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Battery\BatteryMiniclass" Name="SurfaceDuo_battminiclass.inf" ID="SurfaceDuo_battminiclass"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Bluetooth\BTFMUART" Name="surfaceduo_btfmuart.inf" ID="surfaceduo_btfmuart"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Camera" Name="SurfaceDuo_camavs.inf" ID="SurfaceDuo_camavs"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Camera" Name="SurfaceDuo_camflash.inf" ID="SurfaceDuo_camflash"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Camera" Name="SurfaceDuo_camfront.inf" ID="SurfaceDuo_camfront"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Camera" Name="SurfaceDuo_camisp.inf" ID="SurfaceDuo_camisp"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Camera" Name="SurfaceDuo_camrear.inf" ID="SurfaceDuo_camrear"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Camera\AVStream" Name="SurfaceDuo_camavs.inf" ID="SurfaceDuo_camavs"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Camera\Flash" Name="SurfaceDuo_camflash.inf" ID="SurfaceDuo_camflash"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Camera\FrontSensor" Name="SurfaceDuo_camfront.inf" ID="SurfaceDuo_camfront"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Camera\ISP" Name="SurfaceDuo_camisp.inf" ID="SurfaceDuo_camisp"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Camera\RearSensor" Name="SurfaceDuo_camrear.inf" ID="SurfaceDuo_camrear"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Cellular\IPA" Name="surfaceduo_ipa.inf" ID="surfaceduo_ipa"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Graphics\DXKM" Name="SurfaceDuo_dxffu.inf" ID="SurfaceDuo_dxffu"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\SecurityProcessor" Name="surfaceduo_sp.inf" ID="surfaceduo_sp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Sensors\SSC" Name="SurfaceDuo_sensors.inf" ID="SurfaceDuo_sensors"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\SOC\I2C" Name="surfaceduo_i2c.inf" ID="surfaceduo_i2c"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\SOC\PMIC" Name="SurfaceDuo_pmiceic.inf" ID="SurfaceDuo_pmiceic"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\SOC\PowerManagement" Name="SurfaceDuo_pep.inf" ID="SurfaceDuo_pep"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\SOC\PMIC\ExternalIC" Name="SurfaceDuo_pmiceic.inf" ID="SurfaceDuo_pmiceic"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\SOC\PowerManagement" Name="SurfaceDuo_pepwp.inf" ID="SurfaceDuo_pepwp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\SOC\SPI" Name="surfaceduo_spi.inf" ID="surfaceduo_spi"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\SOC\TrEE" Name="surfaceduo_tree.inf" ID="surfaceduo_tree"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\SOC\UART" Name="surfaceduo_uart.inf" ID="surfaceduo_uart"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Subsystems" Name="SurfaceDuo_subsys.inf" ID="SurfaceDuo_subsys"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\Subsystems\CombinedSubsystem" Name="SurfaceDuo_subsys.inf" ID="SurfaceDuo_subsys"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Drivers\WLAN" Name="surfaceduo_wlan.inf" ID="surfaceduo_wlan"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Extensions\Audio\ACDB\AND" Name="SurfaceDuo_acsp.inf" ID="SurfaceDuo_acsp"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Platform\Extensions\Audio\AudMiniport\AND" Name="SurfaceDuo_audminiext.inf" ID="SurfaceDuo_audminiext"/>
@@ -204,7 +204,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\MBB" Name="qcmbb.wp8150.inf" ID="qcmbb.wp8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\ModemBridge" Name="qcmbrg8150.inf" ID="qcmbrg8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RemoteAT" Name="qcremoteat8150.inf" ID="qcremoteat8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RemoteFS" Name="qcremotefs8150.inf" ID="qcremotefs8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RemoteFS\ReadOnlyFS1FS2" Name="qcremotefs8150.inf" ID="qcremotefs8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RevRmnet" Name="qcrevrmnet8150.inf" ID="qcrevrmnet8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RmNetBridge" Name="qcrmnetbridge8150.inf" ID="qcrmnetbridge8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\ThermalMDM" Name="qcthermalmdm.inf" ID="qcthermalmdm"/>
