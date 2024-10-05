@@ -1,4 +1,4 @@
-tmp/*
 i386/*
-FFUs/*
+*.ffu
 *.pdb
+*.vhdx
