@@ -116,7 +116,6 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Integration\Thermal" Name="SurfaceThermalProxyFilter.inf" ID="SurfaceThermalProxyFilter"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\NFC" Name="NxpNfcClientDriver.inf" ID="NxpNfcClientDriver"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Provisioning" Name="SurfaceSOCPartitionFilter.inf" ID="SurfaceSOCPartitionFilter"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Touch" Name="SurfaceHIDConfigFlags.inf" ID="SurfaceHIDConfigFlags"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Touch" Name="SurfaceNxpNfcWirelessChargingDriver.inf" ID="SurfaceNxpNfcWirelessChargingDriver"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Touch\RS5" Name="SurfaceTouchPenProcessorUpdateRs5.inf" ID="SurfaceTouchPenProcessorUpdateRs5"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Touch\RS6" Name="SurfaceTouchPenProcessorUpdateRs6.inf" ID="SurfaceTouchPenProcessorUpdateRs6"/>
