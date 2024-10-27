@@ -10,3 +10,9 @@
 [submodule "components/Devices/Zeta"]
 	path = components/Devices/Zeta
 	url = https://github.com/WOA-Project/windows_oem_surface_dual_screen_zeta
+[submodule "components/OEM/Surface/Common"]
+	path = components/OEM/Surface/Common
+	url = https://github.com/WOA-Project/windows_oem_surface_common
+[submodule "components/OEM/Surface/DualScreen"]
+	path = components/OEM/Surface/DualScreen
+	url = https://github.com/WOA-Project/windows_oem_surface_dual_screen_common
