@@ -1,6 +1,4 @@
 [Drivers]
-\components\ANYSOC\Hardware\HARDWARE.DOCKING.SURFACE=""
-\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE=""
 \components\ANYSOC\Hardware\HARDWARE.POSTURES.DESKTOP=""
 \components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE=""
 \components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE=""
@@ -8,6 +6,8 @@
 \components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL=""
 \components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL_EXTRAS=""
 \components\Devices\Zeta=""
+\components\OEM\Surface\Common=""
+\components\OEM\Surface\DualScreen=""
 \components\QC8350=""
 
 [Apps]

@@ -1,11 +1,11 @@
 [Drivers]
-\components\ANYSOC\Hardware\HARDWARE.DOCKING.SURFACE=""
-\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE=""
 \components\ANYSOC\Hardware\HARDWARE.USB.FSA4480=""
 \components\ANYSOC\Support\WCOS\SUPPORT.WCOS.BASE=""
 \components\ANYSOC\Support\WCOS\SUPPORT.WCOS.MOBILE_BRIDGE=""
 \components\ANYSOC\Support\WCOS\SUPPORT.WCOS.MOBILE_RIL=""
 \components\Devices\Epsilon=""
+\components\OEM\Surface\Common=""
+\components\OEM\Surface\DualScreen=""
 \components\QC8150=""
 
 [Apps]
