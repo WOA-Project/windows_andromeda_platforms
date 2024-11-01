@@ -18,32 +18,25 @@ REM Generate Base Virtual Disk file
 REM Generate FFU Files
 
 REM Epsilon Half Split 128GB
-%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\EpsilonHalfSplit128GB.xml
-call resign_ffu.cmd "%CD%\FFUs\OEMEP_128GB_HalfSplit.ffu"
+%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\EpsilonHalfSplit128GB.xml -b "cmd.exe /c sign.cmd"
 
 REM Epsilon Half Split 256GB
-%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\EpsilonHalfSplit256GB.xml
-call resign_ffu.cmd "%CD%\FFUs\OEMEP_256GB_HalfSplit.ffu"
+%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\EpsilonHalfSplit256GB.xml -b "cmd.exe /c sign.cmd"
 
 REM Epsilon Maximized for Windows
-%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\EpsilonMaximizedForWindows.xml
-call resign_ffu.cmd "%CD%\FFUs\OEMEP_MaximizedForWindows.ffu"
+%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\EpsilonMaximizedForWindows.xml -b "cmd.exe /c sign.cmd"
 
 REM Zeta Half Split 128GB
-%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\ZetaHalfSplit128GB.xml
-call resign_ffu.cmd "%CD%\FFUs\OEMZE_128GB_HalfSplit.ffu"
+%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\ZetaHalfSplit128GB.xml -b "cmd.exe /c sign.cmd"
 
 REM Zeta Half Split 256GB
-%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\ZetaHalfSplit256GB.xml
-call resign_ffu.cmd "%CD%\FFUs\OEMZE_256GB_HalfSplit.ffu"
+%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\ZetaHalfSplit256GB.xml -b "cmd.exe /c sign.cmd"
 
 REM Zeta Half Split 512GB
-REM %PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\ZetaHalfSplit512GB.xml
-REM call resign_ffu.cmd "%CD%\FFUs\OEMZE_512GB_HalfSplit.ffu"
+REM %PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\ZetaHalfSplit512GB.xml -b "cmd.exe /c sign.cmd"
 
 REM Zeta Maximized for Windows
-%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\ZetaMaximizedForWindows.xml
-call resign_ffu.cmd "%CD%\FFUs\OEMZE_MaximizedForWindows.ffu"
+%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\ZetaMaximizedForWindows.xml -b "cmd.exe /c sign.cmd"
 
 REM Unmount ISO image
 powershell -command "Dismount-DiskImage -ImagePath '%WINDOWS_ISO_IMAGE%'"
