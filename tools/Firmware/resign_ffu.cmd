@@ -10,7 +10,7 @@ del Flash.cat
 "%WPDK%\imageutility.exe" ExtractCatalog -CabPath SigningCab.cab -CatalogPath Flash.cat
 
 set WINDOWS_KIT_ARCH_FOLDER=%PROCESSOR_ARCHITECTURE%
-if %WINDOWS_KIT_ARCH_FOLDER%==AND64 (
+if %WINDOWS_KIT_ARCH_FOLDER%==AMD64 (
     set WINDOWS_KIT_ARCH_FOLDER=x64
 )
 
