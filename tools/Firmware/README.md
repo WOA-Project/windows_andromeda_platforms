@@ -11,6 +11,7 @@ Using index 3 in above file (Windows 11 Pro).
 ## Tooling system requirements
 
 - Windows 10 version 1703 or higher
+- .NET 8.0.X Runtime ([X86](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.10-windows-x86-installer), [X64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.10-windows-x64-installer) or [ARM64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.10-windows-arm64-installer))
 - X86, AMD64 or ARM64 Processor
 - At least 40GB of free space
 
