@@ -18,7 +18,7 @@ REM Generate Base Virtual Disk file
 REM Generate FFU Files
 
 REM Zeta Maximized for Windows
-%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\ZetaMaximizedForWindows.xml -b "cmd.exe /c sign.cmd"
+%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\ZetaMaximizedForWindows.xml -t "cmd.exe /c sign.cmd"
 
 REM Unmount ISO image
 powershell -command "Dismount-DiskImage -ImagePath '%WINDOWS_ISO_IMAGE%'"
