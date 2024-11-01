@@ -8,6 +8,12 @@ These scripts can be edited to suit your needs, they currently build FFU files f
 
 Using index 3 in above file (Windows 11 Pro).
 
+## Tooling system requirements
+
+- Windows 10 version 1703 or higher
+- X86, AMD64 or ARM64 Processor
+- At least 40GB of free space
+
 ## Scripts
 
 ### build_now.cmd
