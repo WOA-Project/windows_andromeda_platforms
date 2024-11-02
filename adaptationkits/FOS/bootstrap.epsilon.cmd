@@ -1,10 +1,31 @@
 @echo off
 
+if not exist .\FMFiles\arm64\FactoryOS\ (
+  echo ERROR: Feature Manifests not found in .\FMFiles\arm64\FactoryOS, recheck your copy of the 22000 WSK and try again.
+  exit /b
+)
+
+if not exist .\MSPackages\appx\ (
+  echo ERROR: APPX packages not found in .\MSPackages\appx, recheck your copy of the 22000 WSK and try again.
+  exit /b
+)
+
+if not exist .\MSPackages\Retail\ARM64\fre\ (
+  echo ERROR: CBS packages not found in .\MSPackages\Retail\ARM64\fre, recheck your copy of the 22000 WSK and try again.
+  exit /b
+)
+
 echo Copying Driver Components...
-xcopy /cheriky ..\..\components .\MSPackages\Microsoft\Andromeda855\ARM64\fre\Drivers\
+mkdir .\MSPackages\Microsoft\Andromeda855\ARM64\fre\Drivers\components
+xcopy /cheriky ..\..\components .\MSPackages\Microsoft\Andromeda855\ARM64\fre\Drivers\components
+
+echo Copying App Components...
+mkdir .\MSPackages\Microsoft\Andromeda855\ARM64\fre\Drivers\apps
+xcopy /cheriky ..\..\apps .\MSPackages\Microsoft\Andromeda855\ARM64\fre\Drivers\apps
 
 echo Copying WSK Components...
-xcopy /cheriky "%ProgramFiles(x86)%\Windows Kits\10\tools .\
+mkdir .\tools
+xcopy /cheriky "%ProgramFiles(x86)%\Windows Kits\10\tools" .\tools\
 
 echo Launching ImageApp...
 set WSKContentRoot=%CD%
