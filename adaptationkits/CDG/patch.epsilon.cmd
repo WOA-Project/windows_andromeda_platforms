@@ -1,5 +1,5 @@
 @echo off
-set EFIESP=G:
+set EFIESP=%1
 rem set MainOS=G:
 
 ren %EFIESP%\efi\Microsoft\Boot\SecureBootPolicy.p7b SecureBootPolicy.p7b.bak
