@@ -31,13 +31,12 @@ echo Launching ImageApp...
 set WSKContentRoot=%CD%
 call build.zeta.cmd
 
-REM Mount VHDX
 echo Mounting VHDX for patching...
-powershell -command "(Mount-DiskImage -ImagePath '%CD%\Output\Flash.vhdx' | Get-Volume -FileSystemLabel EFIESP).DriveLetter" > tmpFile
-set /p DriveLetter= < tmpFile
-del tmpFile
+powershell -command "Mount-DiskImage -ImagePath '%CD%\Output\Flash.vhdx'"
 
-REM TODO: Assign letter to EFIESP
+echo Getting EFIESP Drive Letter...
+powershell -command "Get-Partition -Volume (Get-Volume -FileSystemLabel EFIESP) | Set-Partition -NewDriveLetter V"
+set DriveLetter=V:
 
 echo Patching...
 call patch.zeta.cmd %DriveLetter%
