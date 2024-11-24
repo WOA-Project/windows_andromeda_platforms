@@ -19,8 +19,6 @@ echo pause >> ..\OfflineUpdater.cmd
 echo apps\IPA > filelist_zeta.txt
 echo CODE_OF_CONDUCT.md >> filelist_zeta.txt
 echo components\ANYSOC\Changelog >> filelist_zeta.txt
-echo components\ANYSOC\Hardware\HARDWARE.DOCKING.SURFACE >> filelist_zeta.txt
-echo components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE >> filelist_zeta.txt
 echo components\ANYSOC\Hardware\HARDWARE.POSTURES.DESKTOP >> filelist_zeta.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE >> filelist_zeta.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE >> filelist_zeta.txt
@@ -28,6 +26,8 @@ echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS >> file
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL >> filelist_zeta.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL_EXTRAS >> filelist_zeta.txt
 echo components\Devices\Zeta >> filelist_zeta.txt
+echo components\OEM\Surface\Common >> filelist_zeta.txt
+echo components\OEM\Surface\DualScreen >> filelist_zeta.txt
 echo components\QC8350 >> filelist_zeta.txt
 echo definitions\Desktop\ARM64\Internal\zeta.xml >> filelist_zeta.txt
 echo tools\DriverUpdater >> filelist_zeta.txt

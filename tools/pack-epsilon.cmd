@@ -19,8 +19,6 @@ echo pause >> ..\OfflineUpdater.cmd
 echo apps\IPA > filelist_epsilon.txt
 echo CODE_OF_CONDUCT.md >> filelist_epsilon.txt
 echo components\ANYSOC\Changelog >> filelist_epsilon.txt
-echo components\ANYSOC\Hardware\HARDWARE.DOCKING.SURFACE >> filelist_epsilon.txt
-echo components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE >> filelist_epsilon.txt
 echo components\ANYSOC\Hardware\HARDWARE.POSTURES.DESKTOP >> filelist_epsilon.txt
 echo components\ANYSOC\Hardware\HARDWARE.USB.FSA4480 >> filelist_epsilon.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE >> filelist_epsilon.txt
@@ -29,6 +27,8 @@ echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS >> file
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL >> filelist_epsilon.txt
 echo components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL_EXTRAS >> filelist_epsilon.txt
 echo components\Devices\Epsilon >> filelist_epsilon.txt
+echo components\OEM\Surface\Common >> filelist_epsilon.txt
+echo components\OEM\Surface\DualScreen >> filelist_epsilon.txt
 echo components\QC8150 >> filelist_epsilon.txt
 echo definitions\Desktop\ARM64\Internal\epsilon.xml >> filelist_epsilon.txt
 echo definitions\Desktop\ARM64\PE\epsilon.xml >> filelist_epsilon.txt
