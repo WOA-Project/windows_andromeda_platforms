@@ -1,6 +1,6 @@
 <!-- @@BEGIN_SDKSPLIT
   
-  Andromeda888/OEMZE BSP Definition file v2411.1
+  Andromeda888/OEMZE BSP Definition file v2411.80
   
   This is the file that dictates which drivers to install onto Andromeda888 devices
   It also instructs which apps should be installed onto the target device.
