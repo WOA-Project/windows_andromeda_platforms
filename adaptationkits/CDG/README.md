@@ -23,17 +23,17 @@ WCOS (Windows Core OS) CDG (Charles De Gaulle) Product, more commonly known as _
 - Install the .NET 8.0 Runtime in the virtual machine
 - Download the Build 20279 WSK in the virtual machine
 
-- Clone this very repository using ```git clone https://github.com/WOA-Project/SurfaceDuo-Drivers```
-- Change directory to ```SurfaceDuo-Drivers\adaptationkits\CDG```
-- Extract your copy of the WSK into ```SurfaceDuo-Drivers\adaptationkits\MSPackages```
+- Clone this very repository using ```git clone https://github.com/WOA-Project/windows_andromeda_platforms```
+- Change directory to ```windows_andromeda_platforms\adaptationkits\CDG```
+- Extract your copy of the WSK into ```windows_andromeda_platforms\adaptationkits\MSPackages```
 - Open a Command Prompt (read, cmd.exe NOT powershell.exe or pwsh.exe) as Administrator
-- Change directory to ```SurfaceDuo-Drivers\adaptationkits\CDG```
+- Change directory to ```windows_andromeda_platforms\adaptationkits\CDG```
 
 ## Build
 
 - Run ```bootstrap.epsilon.cmd```
-- If you get any failure, make sure your copy has correct license xml file names under ```SurfaceDuo-Drivers\adaptationkits\CDG\MSPackages\Appx```. You may have to manually rename those!
-- Once done, you will get a Flash.ffu inside the ```SurfaceDuo-Drivers\adaptationkits\CDG\Output``` folder.
+- If you get any failure, make sure your copy has correct license xml file names under ```windows_andromeda_platforms\adaptationkits\CDG\MSPackages\Appx```. You may have to manually rename those!
+- Once done, you will get a Flash.ffu inside the ```windows_andromeda_platforms\adaptationkits\CDG\Output``` folder.
 
 ## Install
 
