@@ -36,12 +36,15 @@ powershell -command "Mount-DiskImage -ImagePath '%CD%\Output\Flash.vhdx'"
 
 echo Getting EFIESP Drive Letter...
 powershell -command "Get-Partition -Volume (Get-Volume -FileSystemLabel EFIESP) | Set-Partition -NewDriveLetter V"
-set DriveLetter=V:
+set EFIESPDriveLetter=V:
+
+echo Getting MainOS Drive Letter...
+powershell -command "Get-Partition -Volume (Get-Volume -FileSystemLabel MainOS) | Set-Partition -NewDriveLetter W"
+set MainOSDriveLetter=W:
 
 echo Patching...
-call patch.epsilon.cmd %DriveLetter%
+call patch.epsilon.cmd %EFIESPDriveLetter% %MainOSDriveLetter%
 
-REM Unmount VHDX
 echo Unmounting VHDX...
 powershell -command "Dismount-DiskImage -ImagePath '%CD%\Output\Flash.vhdx'"
 
