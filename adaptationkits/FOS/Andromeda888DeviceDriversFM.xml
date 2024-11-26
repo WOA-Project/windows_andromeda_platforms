@@ -18,7 +18,7 @@
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Pen\090E" Name="SurfacePenIntegration.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Pen\0921" Name="SurfacePen217Integration.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Pen\0953" Name="SurfacePen0953Integration.inf" />
-      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Pen\0993" Name="SurfaceCFUOverHid.inf" />
+      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\Pen\0993" Name="SurfacePenFwUpdate.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\TouchPanelAlignment" Name="SurfaceTouchPanelAlignment.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Drivers\WirelessTypeCover" Name="SurfaceOobPairingOptInPackage.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Extensions\FriendlyNames" Name="SurfaceDuoHIDFriendlyNames.inf" />
@@ -50,7 +50,7 @@
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\Devices\Zeta\Drivers\Audio\Dolby" Name="dax3_swc_hsa_arm64.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\Devices\Zeta\Drivers\Biometric" Name="fpc_wbdi_um_spi.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\Devices\Zeta\Drivers\Graphics\Monitor" Name="SurfacePanel.inf" />
-      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\Devices\Zeta\Drivers\Graphics\OemPanel" Name="SurfaceOemPanel.inf" />
+      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\Devices\Zeta\Drivers\Graphics\OemPanel" Name="SDPDriver.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\Devices\Zeta\Drivers\Integration\eSIM" Name="gtopatchdrvumdf.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\Devices\Zeta\Drivers\Integration\Power" Name="SurfacePowerMeterDriver.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\Devices\Zeta\Drivers\Integration\SAR" Name="SurfaceSarManager.inf" />

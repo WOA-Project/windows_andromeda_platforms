@@ -67,7 +67,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Customizations" Name="SurfaceDuo2_MTPOEM.inf" ID="SurfaceDuo2_MTPOEM"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\DisplayConfigurator" Name="SurfaceDisplayConfiguratorService.inf" ID="SurfaceDisplayConfiguratorService"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\Monitor" Name="SurfacePanel.inf" ID="SurfacePanel"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\OemPanel" Name="SurfaceOemPanel.inf" ID="SurfaceOemPanel"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\OemPanel" Name="SDPDriver.inf" ID="SDPDriver"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Integration\Service" Name="SurfaceServiceNullDriver.inf" ID="SurfaceServiceNullDriver"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Integration\System" Name="SurfaceIntegrationDriver.inf" ID="SurfaceIntegrationDriver"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\NFC" Name="NxpNfcClientDriver.inf" ID="NxpNfcClientDriver"/>
@@ -173,7 +173,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\OEM\Surface\Common\Drivers\Pen\090E" Name="SurfacePenIntegration.inf" ID="SurfacePenIntegration"/>
             <DriverPackageFile Path="$(mspackageroot)\components\OEM\Surface\Common\Drivers\Pen\0921" Name="SurfacePen217Integration.inf" ID="SurfacePen217Integration"/>
             <DriverPackageFile Path="$(mspackageroot)\components\OEM\Surface\Common\Drivers\Pen\0953" Name="SurfacePen0953Integration.inf" ID="SurfacePen0953Integration"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\OEM\Surface\Common\Drivers\Pen\0993" Name="SurfaceCFUOverHid.inf" ID="SurfaceCFUOverHid"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\OEM\Surface\Common\Drivers\Pen\0993" Name="SurfacePenFwUpdate.inf" ID="SurfacePenFwUpdate"/>
             <DriverPackageFile Path="$(mspackageroot)\components\OEM\Surface\Common\Drivers\USBFn" Name="genericusbfnclass.inf" ID="genericusbfnclass"/>
             <DriverPackageFile Path="$(mspackageroot)\components\OEM\Surface\Common\Drivers\WirelessTypeCover" Name="SurfaceOobPairingOptInPackage.inf" ID="SurfaceOobPairingOptInPackage"/>
             <DriverPackageFile Path="$(mspackageroot)\components\OEM\Surface\Common\Extensions\FriendlyNames" Name="SurfaceHIDFriendlyNames.inf" ID="SurfaceHIDFriendlyNames"/>

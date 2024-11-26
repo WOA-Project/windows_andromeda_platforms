@@ -13,7 +13,7 @@
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\Devices\Epsilon\Drivers\Battery" Name="SurfaceBattMiniclassFilter.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\Devices\Epsilon\Drivers\Battery" Name="SurfaceDuo_BattMiniclassExt.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\Devices\Epsilon\Drivers\Graphics\Monitor" Name="SurfaceOemPanel.inf" />
-      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\Devices\Epsilon\Drivers\Graphics\OemPanel" Name="SurfaceOemPanel.inf" />
+      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\Devices\Epsilon\Drivers\Graphics\OemPanel" Name="SDPDriver.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\Devices\Epsilon\Drivers\Haptics" Name="SurfaceHaptics.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\Devices\Epsilon\Drivers\Integration\Service" Name="SurfaceServiceNullDriver.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\Devices\Epsilon\Drivers\Integration\System" Name="SurfaceIntegrationDriver.inf" />
@@ -97,7 +97,7 @@
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\OEM\Surface\Common\Drivers\Pen\090E" Name="SurfacePenIntegration.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\OEM\Surface\Common\Drivers\Pen\0921" Name="SurfacePen217Integration.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\OEM\Surface\Common\Drivers\Pen\0953" Name="SurfacePen0953Integration.inf" />
-      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\OEM\Surface\Common\Drivers\Pen\0993" Name="SurfaceCFUOverHid.inf" />
+      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\OEM\Surface\Common\Drivers\Pen\0993" Name="SurfacePenFwUpdate.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\OEM\Surface\Common\Drivers\USBFn" Name="genericusbfnclass.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\OEM\Surface\Common\Drivers\WirelessTypeCover" Name="SurfaceOobPairingOptInPackage.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\OEM\Surface\Common\Extensions\FriendlyNames" Name="SurfaceHIDFriendlyNames.inf" />
