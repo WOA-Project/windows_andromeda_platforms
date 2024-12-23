@@ -1,4 +1,4 @@
-## Surface Duo BSP - Version 2411.80 (Snowball)
+## Surface Duo BSP - Version 2412.74 (Cherry blossom)
 
 > [!NOTE]
 > Higher thermals in Windows is currently expected and is not dangerous
@@ -6,7 +6,7 @@
 <details>
   <summary>General information</summary>
   <p>
-**Released:** 11/24/2024 00:00 AM UTC+2
+**Released:** 12/24/2024 00:00 AM UTC+2
 
 **Quality:** Preview
 
@@ -31,7 +31,7 @@ You can view compatibility for this release, along with important information an
 
 [▶️ Install Surface Duo 2 UEFI and Drivers for Windows from scratch (Clean Installation)](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Install/Client/InstallWindows-SurfaceDuo2.md)
 
-[▶️ Update from an older version of Surface Duo UEFI and Drivers (both got updated with v2411.80)](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Update/UpdateDriversAndUEFI.md)
+[▶️ Update from an older version of Surface Duo UEFI and Drivers (both got updated with v2412.74)](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Update/UpdateDriversAndUEFI.md)
 
 ---
 
@@ -52,13 +52,13 @@ These files are to be used when clean installing Windows on your Surface Duo or 
 <tr>
 <td>
 
-[SurfaceDuo-Drivers-v2411.80-Desktop-Epsilon.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/SurfaceDuo-Drivers-v2411.80-Desktop-Epsilon.7z)
+[SurfaceDuo-Drivers-v2412.74-Desktop-Epsilon.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/SurfaceDuo-Drivers-v2412.74-Desktop-Epsilon.7z)
 </td>
 <td>
 
-- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.1st.Gen.UEFI-v2411.80.Fast.Boot.zip)
-- [Dual Boot for FW 2022.902.48 (Latest OTA for Surface Duo (1st Gen) devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.1st.Gen.UEFI-v2411.80.Dual.Boot.zip)
-- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.1st.Gen.UEFI-v2411.80.FD.for.making.your.own.Dual.Boot.Image.zip)
+- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Fast.Boot.zip)
+- [Dual Boot for FW 2022.902.48 (Latest OTA for Surface Duo (1st Gen) devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Dual.Boot.zip)
+- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.FD.for.making.your.own.Dual.Boot.Image.zip)
 </td>
 <td>Surface Duo (1st Gen)</td>
 <td>Windows 10 Version 2004 and higher</td>
@@ -70,13 +70,13 @@ N/A
 <tr>
 <td>
 
-[SurfaceDuo-Drivers-v2411.80-Desktop-Zeta.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/SurfaceDuo-Drivers-v2411.80-Desktop-Zeta.7z)
+[SurfaceDuo-Drivers-v2412.74-Desktop-Zeta.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/SurfaceDuo-Drivers-v2412.74-Desktop-Zeta.7z)
 </td>
 <td>
 
-- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.Fast.Boot.zip)
-- [Dual Boot for FW 2023.501.541 (Latest OTA for Surface Duo 2 devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.Dual.Boot.zip)
-- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.FD.for.making.your.own.Dual.Boot.Image.zip)
+- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.2.UEFI-v2412.74.Fast.Boot.zip)
+- [Dual Boot for FW 2023.501.541 (Latest OTA for Surface Duo 2 devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.2.UEFI-v2412.74.Dual.Boot.zip)
+- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.2.UEFI-v2412.74.FD.for.making.your.own.Dual.Boot.Image.zip)
 </td>
 <td>Surface Duo 2</td>
 <td>Windows 11 Version 24H2 and higher</td>
@@ -88,13 +88,13 @@ N/A
 <tr>
 <td>
 
-[SurfaceDuo-Drivers-v2411.80-Desktop-Epsilon.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/SurfaceDuo-Drivers-v2411.80-Desktop-Epsilon.7z)
+[SurfaceDuo-Drivers-v2412.74-Desktop-Epsilon.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/SurfaceDuo-Drivers-v2412.74-Desktop-Epsilon.7z)
 </td>
 <td>
 
-- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.1st.Gen.UEFI-v2411.80.Secure.Boot.Disabled.Fast.Boot.zip)
-- [Dual Boot for FW 2022.902.48 (Latest OTA for Surface Duo (1st Gen) devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.1st.Gen.UEFI-v2411.80.Secure.Boot.Disabled.Dual.Boot.zip)
-- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.1st.Gen.UEFI-v2411.80.Secure.Boot.Disabled.FD.for.making.your.own.Dual.Boot.Image.zip)
+- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Secure.Boot.Disabled.Fast.Boot.zip)
+- [Dual Boot for FW 2022.902.48 (Latest OTA for Surface Duo (1st Gen) devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Secure.Boot.Disabled.Dual.Boot.zip)
+- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Secure.Boot.Disabled.FD.for.making.your.own.Dual.Boot.Image.zip)
 </td>
 <td>Surface Duo (1st Gen)</td>
 <td>Windows 10 Version 1803 to Windows 10 Version 1909</td>
@@ -142,9 +142,9 @@ Learn more about FFU files: [FFU Flashing Guide](https://github.com/WOA-Project/
 ### Surface Duo (1st Gen)
 
 UEFI files:
-- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.1st.Gen.UEFI-v2411.80.Fast.Boot.zip)
-- [Dual Boot for FW 2022.902.48 (Latest OTA for Surface Duo (1st Gen) devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.1st.Gen.UEFI-v2411.80.Dual.Boot.zip)
-- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.1st.Gen.UEFI-v2411.80.FD.for.making.your.own.Dual.Boot.Image.zip)
+- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Fast.Boot.zip)
+- [Dual Boot for FW 2022.902.48 (Latest OTA for Surface Duo (1st Gen) devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Dual.Boot.zip)
+- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.FD.for.making.your.own.Dual.Boot.Image.zip)
 
 FFU files:
 <table>
@@ -157,7 +157,7 @@ FFU files:
 <td>
 For 128GB variants
 
-[OEMEP_128GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2411.80/OEMEP_128GB_HalfSplit.ffu)
+[OEMEP_128GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMEP_128GB_HalfSplit.ffu)
 
 Size: 7.06 GB
 
@@ -175,7 +175,7 @@ Assumed Compatibility with 256gb variants (may have issues but should work, if i
 <td>
 For 256GB variants
 
-[OEMEP_256GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2411.80/OEMEP_256GB_HalfSplit.ffu)
+[OEMEP_256GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMEP_256GB_HalfSplit.ffu)
 
 Size: 7.06 GB
 
@@ -193,7 +193,7 @@ No Compatibility at all with 128GB, please do not flash on a 128GB Surface Duo!
 <td>
 4GB Android, everything else for Windows
 
-[OEMEP_MaximizedForWindows.ffu](https://fullflash.pvabel.net/DuoWOA/v2411.80/OEMEP_MaximizedForWindows.ffu)
+[OEMEP_MaximizedForWindows.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMEP_MaximizedForWindows.ffu)
 
 Size: 7.06 GB
 
@@ -213,9 +213,9 @@ Official Variant: 4GB only for Android, everything else for Windows, 256GB users
 ### Surface Duo 2
 
 UEFI Files:
-- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.Fast.Boot.zip)
-- [Dual Boot for FW 2023.501.541 (Latest OTA for Surface Duo 2 devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.Dual.Boot.zip)
-- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.FD.for.making.your.own.Dual.Boot.Image.zip)
+- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.2.UEFI-v2412.74.Fast.Boot.zip)
+- [Dual Boot for FW 2023.501.541 (Latest OTA for Surface Duo 2 devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.2.UEFI-v2412.74.Dual.Boot.zip)
+- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.2.UEFI-v2412.74.FD.for.making.your.own.Dual.Boot.Image.zip)
 
 FFU Files
 <table>
@@ -228,7 +228,7 @@ FFU Files
 <td>
 For 128GB variants
 
-[OEMZE_128GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2411.80/OEMZE_128GB_HalfSplit.ffu)
+[OEMZE_128GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMZE_128GB_HalfSplit.ffu)
 
 Size: 6.52 GB
 
@@ -246,7 +246,7 @@ Assumed Compatibility with 256gb and 512gb variants (may have issues but should 
 <td>
 For 256GB variants
 
-[OEMZE_256GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2411.80/OEMZE_256GB_HalfSplit.ffu)
+[OEMZE_256GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMZE_256GB_HalfSplit.ffu)
 
 Size: 6.46 GB
 
@@ -264,7 +264,7 @@ No Compatibility at all with 128GB, please do not flash on a 128GB Surface Duo! 
 <td>
 4GB Android, everything else for Windows
 
-[OEMZE_MaximizedForWindows.ffu](https://fullflash.pvabel.net/DuoWOA/v2411.80/OEMZE_MaximizedForWindows.ffu)
+[OEMZE_MaximizedForWindows.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMZE_MaximizedForWindows.ffu)
 
 Size: 6.45 GB
 
@@ -291,10 +291,8 @@ Official Variant: 4GB only for Android, everything else for Windows, 256GB/512GB
 
 Common:
 
-- We are introducing a new command line tool to flash FFU files without having to use WOA Device Manager if you want to be able to flash FFU files from the terminal or need more flexibility or access to commands; you can download it here: https://github.com/WOA-Project/UnifiedFlashingPlatform/releases/tag/v1.0.0.0
-- We are introducing fully automated one click builds of FFU files; learn more on how to build your own Desktop FFU files at https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/ForDevelopers/BuildClientFFUImages.md and download the [SurfaceDuo-Drivers-v2411.80-Full.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/SurfaceDuo-Drivers-v2411.80-Full.7z) archive
-- We are also introducing fully automated one click builds of Windows 10X FFU files; learn more on how to build your own Windows 10X FFU files at https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/ForDevelopers/BuildWCOSFFUImages.md and download the [SurfaceDuo-Drivers-v2411.80-Full.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/SurfaceDuo-Drivers-v2411.80-Full.7z) archive
-- We fixed an issue that resulted in driver update failures for some people
+- Enable advanced USB Function Modes in the Surface Settings application
+- Secrets
 
 Surface Duo (1st Gen):
 
@@ -303,13 +301,12 @@ Surface Duo (1st Gen):
 Surface Duo 2:
 
 - General Driver Improvements and Updates
-- Updated Pre-made dual boot binaries to target the last ever OTA update released for Surface Duo 2 devices
 
 ---
 
-- Please download ```SurfaceDuo-Drivers-v2411.80-Desktop-Epsilon.7z``` if you want drivers for Surface Duo 1
+- Please download ```SurfaceDuo-Drivers-v2412.74-Desktop-Epsilon.7z``` if you want drivers for Surface Duo 1
 
-- Please download ```SurfaceDuo-Drivers-v2411.80-Desktop-Zeta.7z``` if you want drivers for Surface Duo 2
+- Please download ```SurfaceDuo-Drivers-v2412.74-Desktop-Zeta.7z``` if you want drivers for Surface Duo 2
 
 ---
 
