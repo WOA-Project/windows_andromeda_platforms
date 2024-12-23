@@ -19,7 +19,7 @@ You can view compatibility for this release, along with important information an
   <p>
 - ⚠️ For users who are updating from an earlier release than version 2301.93, please reinstall.
 
-- ⚠️ If you need dual boot, you will have to make your own image. Please follow this guidance: https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/DualBoot.md
+- ⚠️ If you need dual boot, you will have to make your own image. Please follow this guidance: https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Install/DualBoot.md
 
 - ⚠️ You need to backup your original boot image for OTAs to work with Android. When you get an OTA, you will want to revert your boot image for the update to work, or you'll have to use an official OTA recovery package.
   </p>
