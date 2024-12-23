@@ -6,7 +6,7 @@
 <details>
   <summary>General information</summary>
   <p>
-**Released:** 09/25/2024 00:00 AM UTC+2
+**Released:** 11/24/2024 00:00 AM UTC+2
 
 **Quality:** Preview
 
@@ -27,15 +27,11 @@ You can view compatibility for this release, along with important information an
 
 ---
 
-_FFU images will be made available later this week_
-
----
-
 [▶️ Install Surface Duo (1st Gen) UEFI and Drivers for Windows from scratch (Clean Installation)](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Install/Client/InstallWindows-SurfaceDuo1.md)
 
 [▶️ Install Surface Duo 2 UEFI and Drivers for Windows from scratch (Clean Installation)](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Install/Client/InstallWindows-SurfaceDuo2.md)
 
-[▶️ Update from an older version of Surface Duo UEFI and Drivers (both got updated with v2408.1)](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Update/UpdateDriversAndUEFI.md)
+[▶️ Update from an older version of Surface Duo UEFI and Drivers (both got updated with v2411.80)](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Update/UpdateDriversAndUEFI.md)
 
 ---
 
@@ -79,7 +75,7 @@ N/A
 <td>
 
 - [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.Fast.Boot.zip)
-- [Dual Boot for FW 2023.501.202 (Latest OTA for Surface Duo 2 devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.Dual.Boot.zip)
+- [Dual Boot for FW 2023.501.541 (Latest OTA for Surface Duo 2 devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.Dual.Boot.zip)
 - [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.FD.for.making.your.own.Dual.Boot.Image.zip)
 </td>
 <td>Surface Duo 2</td>
@@ -141,7 +137,150 @@ We're now providing FFU files directly from the release page outside of Telegram
 
 Learn more about FFU files: [FFU Flashing Guide](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Install/Client/FlashingFFU.md)
 
-Unfortunately, FFU files for this very version are not yet available. Download the FFU Files from the previous release alongside the previous release UEFI or come back later to this page for when the files will be uploaded.
+<details>
+
+### Surface Duo (1st Gen)
+
+UEFI files:
+- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.1st.Gen.UEFI-v2411.80.Fast.Boot.zip)
+- [Dual Boot for FW 2022.902.48 (Latest OTA for Surface Duo (1st Gen) devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.1st.Gen.UEFI-v2411.80.Dual.Boot.zip)
+- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.1st.Gen.UEFI-v2411.80.FD.for.making.your.own.Dual.Boot.Image.zip)
+
+FFU files:
+<table>
+<tr>
+<td>FFU File</td>
+<td>OS Version</td>
+<td>Notes</td>
+</tr>
+<tr>
+<td>
+For 128GB variants
+
+[OEMEP_128GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2411.80/OEMEP_128GB_HalfSplit.ffu)
+
+Size: 7.06 GB
+
+SHA1: `F8019308DFEAFB9D08AFA0D129700A51AF26F7DB`
+</td>
+<td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
+<td><details>
+
+Assumed Compatibility with 256gb variants (may have issues but should work, if issues arise we're not responsible and you should be able to recover either way, the main issue is more the split being 64(Windows)/192(Android) than anything else!).
+
+1) After "Getting Ready" boot, on the second boot, the device may show a black screen, if this happens, press the power button once and it will continue to oobe after a minute. Be patient and don't press it more than once.
+</details></td>
+</tr>
+<tr>
+<td>
+For 256GB variants
+
+[OEMEP_256GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2411.80/OEMEP_256GB_HalfSplit.ffu)
+
+Size: 7.06 GB
+
+SHA1: `9D20079250E8C1E73153DF25044A7454CF05FDB2`
+</td>
+<td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
+<td><details>
+
+No Compatibility at all with 128GB, please do not flash on a 128GB Surface Duo!
+
+1) After "Getting Ready" boot, on the second boot, the device may show a black screen, if this happens, press the power button once and it will continue to oobe after a minute. Be patient and don't press it more than once.
+</details></td>
+</tr>
+<tr>
+<td>
+4GB Android, everything else for Windows
+
+[OEMEP_MaximizedForWindows.ffu](https://fullflash.pvabel.net/DuoWOA/v2411.80/OEMEP_MaximizedForWindows.ffu)
+
+Size: 7.06 GB
+
+SHA1: `166F09D2459330089435EC41CA29D3D679E7C088`
+</td>
+<td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
+<td><details>
+
+Official Variant: 4GB only for Android, everything else for Windows, 256GB users may have to expand the MainOS partition using Disk Management in windows by using the "Extend Partition" option.
+
+1) After "Getting Ready" boot, on the second boot, the device may show a black screen, if this happens, press the power button once and it will continue to oobe after a minute. Be patient and don't press it more than once.
+</details></td>
+</tr>
+</table>
+
+
+### Surface Duo 2
+
+UEFI Files:
+- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.Fast.Boot.zip)
+- [Dual Boot for FW 2023.501.541 (Latest OTA for Surface Duo 2 devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.Dual.Boot.zip)
+- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/Surface.Duo.2.UEFI-v2411.80.FD.for.making.your.own.Dual.Boot.Image.zip)
+
+FFU Files
+<table>
+<tr>
+<td>FFU File</td>
+<td>OS Version</td>
+<td>Notes</td>
+</tr>
+<tr>
+<td>
+For 128GB variants
+
+[OEMZE_128GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2411.80/OEMZE_128GB_HalfSplit.ffu)
+
+Size: 6.52 GB
+
+SHA1: `F98EA80722D2A7858B2522B919EDED9763AFD62B`
+</td>
+<td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
+<td><details>
+
+Assumed Compatibility with 256gb and 512gb variants (may have issues but should work, if issues arise we're not responsible and you should be able to recover either way, the main issue is more the split being 64(Windows)/192(Android) than anything else!).
+
+1) After "Getting Ready" boot, on the second boot, the device may show a black screen, if this happens, press the power button once and it will continue to oobe after a minute. Be patient and don't press it more than once.
+</details></td>
+</tr>
+<tr>
+<td>
+For 256GB variants
+
+[OEMZE_256GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2411.80/OEMZE_256GB_HalfSplit.ffu)
+
+Size: 6.46 GB
+
+SHA1: `D2B09267806D8EF6B889D504B268D03EDBBF3CD5`
+</td>
+<td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
+<td><details>
+
+No Compatibility at all with 128GB, please do not flash on a 128GB Surface Duo! Assumed Compatibility with 512gb variants (may have issues but should work, if issues arise we're not responsible and you should be able to recover either way, the main issue is more the split being different than anything else!). 
+
+1) After "Getting Ready" boot, on the second boot, the device may show a black screen, if this happens, press the power button once and it will continue to oobe after a minute. Be patient and don't press it more than once.
+</details></td>
+</tr>
+<tr>
+<td>
+4GB Android, everything else for Windows
+
+[OEMZE_MaximizedForWindows.ffu](https://fullflash.pvabel.net/DuoWOA/v2411.80/OEMZE_MaximizedForWindows.ffu)
+
+Size: 6.45 GB
+
+SHA1: `2692A51BF6C55F350DA37CFB9F810175C181F655`
+</td>
+<td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
+<td><details>
+
+Official Variant: 4GB only for Android, everything else for Windows, 256GB/512GB users may have to expand the MainOS partition using Disk Management in windows by using the "Extend Partition" option.
+
+1) After "Getting Ready" boot, on the second boot, the device may show a black screen, if this happens, press the power button once and it will continue to oobe after a minute. Be patient and don't press it more than once.
+</details></td>
+</tr>
+</table>
+
+</details>
 
 ---
 
@@ -152,10 +291,19 @@ Unfortunately, FFU files for this very version are not yet available. Download t
 
 Common:
 
+- We are introducing a new command line tool to flash FFU files without having to use WOA Device Manager if you want to be able to flash FFU files from the terminal or need more flexibility or access to commands; you can download it here: https://github.com/WOA-Project/UnifiedFlashingPlatform/releases/tag/v1.0.0.0
+- We are introducing fully automated one click builds of FFU files; learn more on how to build your own Desktop FFU files at https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/ForDevelopers/BuildClientFFUImages.md and download the [SurfaceDuo-Drivers-v2411.80-Full.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/SurfaceDuo-Drivers-v2411.80-Full.7z) archive
+- We are also introducing fully automated one click builds of Windows 10X FFU files; learn more on how to build your own Windows 10X FFU files at https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/ForDevelopers/BuildWCOSFFUImages.md and download the [SurfaceDuo-Drivers-v2411.80-Full.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2411.80/SurfaceDuo-Drivers-v2411.80-Full.7z) archive
+- We fixed an issue that resulted in driver update failures for some people
+
 Surface Duo (1st Gen):
 
+- General Driver Improvements and Updates
 
 Surface Duo 2:
+
+- General Driver Improvements and Updates
+- Updated Pre-made dual boot binaries to target the last ever OTA update released for Surface Duo 2 devices
 
 ---
 
@@ -461,8 +609,8 @@ int main()
 | Surface Duo   | United States of America (GEN)          | 2022.902.48  (Latest OTA for Surface Duo (1st Gen) devices)              |
 | Surface Duo   | United States of America (AT&T)         | 2022.902.48  (Latest OTA for Surface Duo (1st Gen) devices)              |
 | Surface Duo   | Europe (EEA)                            | 2022.902.48  (Latest OTA for Surface Duo (1st Gen) devices)              |
-| Surface Duo 2 | United States of America (mmWave)       | 2023.501.202 (Latest OTA for Surface Duo 2 devices)               |
-| Surface Duo 2 | Europe (5G NR)                          | 2023.501.202 (Latest OTA for Surface Duo 2 devices)               |
+| Surface Duo 2 | United States of America (mmWave)       | 2023.501.541 (Latest OTA for Surface Duo 2 devices)               |
+| Surface Duo 2 | Europe (5G NR)                          | 2023.501.541 (Latest OTA for Surface Duo 2 devices)               |
 
 Flashing these images on any other version may brick your phone or render touch unusable! Make backups of your original boot partitions and ALWAYS test before flashing permanently using "fastboot boot image.img"!.
 
