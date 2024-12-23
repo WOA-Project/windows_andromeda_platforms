@@ -14,7 +14,7 @@ Write-Host "|                          |"
 Write-Host "| Current Version: $version |"
 Write-Host "|__________________________|"
 
-$INFFileVersion = "DriverVer   = $month/$curday/$fullyear,$year.$month.$delta.0"
+$INFFileVersion = "DriverVer   = $month/$curday/$fullyear, $year.$month.$delta.0"
 
 $REGBSPVersion = 'HKLM, "SYSTEM\Platform\DeviceTargetingInfo", "PhoneReleaseVersion", 0x0,  "' + $version + ' (To be filled by O.E.M.)"'
 
@@ -33,7 +33,7 @@ Write-Host
 Write-Host $REGBSPVersion
 
 Write-Host
-Write-Host mu_andromeda_platforms: Platforms/SurfaceDuoFamilyPkg/SurfaceDuoFamily.dsc.inc
+Write-Host mu_andromeda_platforms: Platforms/AndromedaPkg/Andromeda.dsc.inc
 Write-Host
 
 Write-Host $UEFIFirmwareVersionString
