@@ -307,6 +307,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Libraries\Cellular\RadioInterfaceLayer" Name="qcWMRil8350.inf" ID="qcWMRil8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Libraries\FMRadio" Name="qcfmminiport.inf" ID="qcfmminiport"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\ProvisioningPkgs" Name="qcppmsettings8350.inf" ID="qcppmsettings8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Settings\USBFn\Interfaces" Name="qcusbfndefaults8350.inf" ID="qcusbfndefaults8350"/>
         </BaseDriverPackages>
     </Drivers>
     <AppX>

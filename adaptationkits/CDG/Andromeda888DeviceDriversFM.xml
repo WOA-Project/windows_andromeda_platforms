@@ -38,13 +38,13 @@
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\Pen\0C0F" Name="SurfacePen0C0FCfuOverBleLcExtnPackage.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\Pen\0C0F" Name="SurfacePen0C0FFirmwareUpdate.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Hardware\HARDWARE.INPUT.SURFACE\Firmware\WirelessTypeCover" Name="SurfaceTouchpadG7CfuOverHidExtnPackage.inf" />
-      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.BASE\Settings\Version" Name="phonereleaseversion.inf" />
-      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.BASE\Signature\DesktopSignature" Name="desktopsignature.inf" />
-      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.BASE\Signature\SSDE" Name="ssde.inf" />
-      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.MOBILE_BRIDGE\Services\FMRadio" Name="FM Radio Interface.inf" />
-      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.MOBILE_BRIDGE\Services\MobileBridge" Name="MobileFrequencyModulationService.inf" />
-      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.MOBILE_BRIDGE\Services\MobileBridgeUser" Name="MobileHapticsService.inf" />
-      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda855\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.MOBILE_RIL\EMB" Name="emb.inf" />
+      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.BASE\Settings\Version" Name="phonereleaseversion.inf" />
+      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.BASE\Signature\DesktopSignature" Name="desktopsignature.inf" />
+      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.BASE\Signature\SSDE" Name="ssde.inf" />
+      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.MOBILE_BRIDGE\Services\FMRadio" Name="FM Radio Interface.inf" />
+      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.MOBILE_BRIDGE\Services\MobileBridge" Name="MobileFrequencyModulationService.inf" />
+      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.MOBILE_BRIDGE\Services\MobileBridgeUser" Name="MobileHapticsService.inf" />
+      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\ANYSOC\Support\WCOS\SUPPORT.WCOS.MOBILE_RIL\EMB" Name="emb.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\Devices\Zeta\Customizations" Name="SurfaceDuo2_MTPOEM.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\Devices\Zeta\Drivers\Audio\Dolby" Name="dax3_swc_aposvc_arm64.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\Devices\Zeta\Drivers\Audio\Dolby" Name="dax3_swc_hsa_arm64.inf" />
@@ -243,6 +243,7 @@
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\QC8350\Libraries\Cellular\RadioInterfaceLayer" Name="qcWMRil8350.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\QC8350\Libraries\FMRadio" Name="qcfmminiport.inf" />
       <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\QC8350\ProvisioningPkgs" Name="qcppmsettings8350.inf" />
+      <DriverPackageFile Path="$(mspackageroot)\Microsoft\Andromeda888\$(cputype)\$(buildtype)\Drivers\components\QC8350\Settings\USBFn\Interfaces" Name="qcusbfndefaults8350.inf" />
     </BaseDriverPackages>
   </Drivers>
 </FeatureManifest>
