@@ -1,5 +1,7 @@
 ## Surface Duo BSP - Version 2412.74 (Cherry blossom)
 
+![image](https://github.com/user-attachments/assets/3f1938b0-5f22-4e55-8fdf-5b66eaf72188)
+
 > [!NOTE]
 > Higher thermals in Windows is currently expected and is not dangerous
 
@@ -161,7 +163,7 @@ For 128GB variants
 
 Size: 7.06 GB
 
-SHA1: `F8019308DFEAFB9D08AFA0D129700A51AF26F7DB`
+SHA1: `C5DD9D9A96821CDDED7386DFDAB678D19EFDF1FB`
 </td>
 <td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
 <td><details>
@@ -179,7 +181,7 @@ For 256GB variants
 
 Size: 7.06 GB
 
-SHA1: `9D20079250E8C1E73153DF25044A7454CF05FDB2`
+SHA1: `C46B2BAF5DB75C9B68E186EDF1731164348A61EB`
 </td>
 <td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
 <td><details>
@@ -197,7 +199,7 @@ No Compatibility at all with 128GB, please do not flash on a 128GB Surface Duo!
 
 Size: 7.06 GB
 
-SHA1: `166F09D2459330089435EC41CA29D3D679E7C088`
+SHA1: `62E0AA8EE83D6B295BEEB2AC81E6BB06EF38C0C0`
 </td>
 <td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
 <td><details>
@@ -230,9 +232,9 @@ For 128GB variants
 
 [OEMZE_128GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMZE_128GB_HalfSplit.ffu)
 
-Size: 6.52 GB
+Size: 6.51 GB
 
-SHA1: `F98EA80722D2A7858B2522B919EDED9763AFD62B`
+SHA1: `A65A4FCF6C5485447F83DA15E9899E2C8AB89190`
 </td>
 <td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
 <td><details>
@@ -248,9 +250,9 @@ For 256GB variants
 
 [OEMZE_256GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMZE_256GB_HalfSplit.ffu)
 
-Size: 6.46 GB
+Size: 6.45 GB
 
-SHA1: `D2B09267806D8EF6B889D504B268D03EDBBF3CD5`
+SHA1: `849940B43F7CAEA1C3FCC53E89AED3865B624E27`
 </td>
 <td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
 <td><details>
@@ -266,9 +268,9 @@ No Compatibility at all with 128GB, please do not flash on a 128GB Surface Duo! 
 
 [OEMZE_MaximizedForWindows.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMZE_MaximizedForWindows.ffu)
 
-Size: 6.45 GB
+Size: 6.43 GB
 
-SHA1: `2692A51BF6C55F350DA37CFB9F810175C181F655`
+SHA1: `D6FCB4FE20DA68D7625ECE0A0BF567A28BDBAD22`
 </td>
 <td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
 <td><details>
