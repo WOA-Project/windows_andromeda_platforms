@@ -39,7 +39,7 @@ echo OnlineUpdater.cmd >> filelist_epsilon.txt
 echo README.md >> filelist_epsilon.txt
 
 cd ..
-"tools\7z.exe" a -t7z ..\SurfaceDuo-Drivers-Release\SurfaceDuo-Drivers-Desktop-Epsilon.7z @tools\filelist_epsilon.txt -scsWIN
+"tools\7zip\%PROCESSOR_ARCHITECTURE%\7z.exe" a -t7z ..\SurfaceDuo-Drivers-Release\SurfaceDuo-Drivers-Desktop-Epsilon.7z @tools\filelist_epsilon.txt -scsWIN
 cd tools
 
 del ..\OfflineUpdater.cmd

@@ -37,7 +37,7 @@ echo OnlineUpdater.cmd >> filelist_zeta.txt
 echo README.md >> filelist_zeta.txt
 
 cd ..
-"tools\7z.exe" a -t7z ..\SurfaceDuo-Drivers-Release\SurfaceDuo-Drivers-Desktop-Zeta.7z @tools\filelist_zeta.txt -scsWIN
+"tools\7zip\%PROCESSOR_ARCHITECTURE%\7z.exe" a -t7z ..\SurfaceDuo-Drivers-Release\SurfaceDuo-Drivers-Desktop-Zeta.7z @tools\filelist_zeta.txt -scsWIN
 cd tools
 
 del ..\OfflineUpdater.cmd

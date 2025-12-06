@@ -18,6 +18,6 @@ xcopy /cheriky ..\definitions ..\SurfaceDuo-Drivers-Full\definitions
 xcopy /cheriky ..\docs ..\SurfaceDuo-Drivers-Full\docs
 xcopy /cheriky ..\tools ..\SurfaceDuo-Drivers-Full\tools
 
-"7z.exe" a -t7z -r ..\..\SurfaceDuo-Drivers-Release\SurfaceDuo-Drivers-Full.7z ..\SurfaceDuo-Drivers-Full\*
+"7zip\%PROCESSOR_ARCHITECTURE%\7z.exe" a -t7z -r ..\..\SurfaceDuo-Drivers-Release\SurfaceDuo-Drivers-Full.7z ..\SurfaceDuo-Drivers-Full\*
 
 rmdir /Q /S ..\SurfaceDuo-Drivers-Full
