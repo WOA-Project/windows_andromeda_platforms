@@ -13,12 +13,69 @@
 
 #### Sensor Components
 
-- Windows.Internal.Devices.Sensors.dll: 17704 (Desktop)
+- Windows.Internal.Devices.Sensors.dll (Desktop): 17704:
+    - Windows.Internal.Devices.Sensors.FlipSensor
+    - Windows.Internal.Devices.Sensors.FoldSensor
+    - Windows.Internal.Devices.Sensors.HingeAngleSensor
+    - Windows.Internal.Devices.Sensors.HingedDualPanelDevicePostureSensor
+    - Windows.Internal.Devices.Sensors.SensorReserved_Alpha
+    - Windows.Internal.Devices.Sensors.SensorReserved_DeviceContext
+    - Windows.Internal.Devices.Sensors.SensorReserved_zAlpha
+    - Windows.Internal.Devices.Sensors.SensorReserved_zDeviceContext
+- Windows.Internal.Devices.Sensors.dll v2 (Desktop): 18936:
+    - Windows.Internal.Devices.Sensors.FlipSensor
+    - Windows.Internal.Devices.Sensors.FoldSensor
+    - Windows.Internal.Devices.Sensors.HingeAngleSensor
+    - Windows.Internal.Devices.Sensors.HingedDualPanelDevicePostureSensor
+    - Windows.Internal.Devices.Sensors.SensorReserved_Alpha
+    - Windows.Internal.Devices.Sensors.SensorReserved_DeviceContext
+    - Windows.Internal.Devices.Sensors.SensorReserved_zAlpha
+    - Windows.Internal.Devices.Sensors.SensorReserved_zDeviceContext
+    - Windows.Internal.System.TwoPanelHingedDevicePosture
+- Windows.Internal.Devices.Sensors.dll v3 (Desktop): 18941 (checked, no) <-> 18975 (checked, yes):
+    - Windows.Internal.Devices.Sensors.FlipSensor
+    - Windows.Internal.Devices.Sensors.FoldSensor
+    - Windows.Internal.System.TwoPanelHingedDevicePosture
+
+```
+18945.1001.rs_prerelease.190720-1835 Insider Preview
+18946.1000.rs_xbox_dev.190723-1700
+18947.1000.rs_xbox.190723-1357 / 18947.1000.rs_prerelease.190723-1401
+18950.1000.rs_prerelease.190726-1645 Insider Preview
+18956.1000.rs_prerelease.190803-1414 Insider Preview
+18963.1000.rs_prerelease.190814-0221 Insider Preview
+18965.1000.rs_prerelease.190816-1722 Insider Preview / 18965.1005.rs_prerelease_flt.190816-2000 Insider Preview update
+18970.1001.rs_prerelease.190824-1711 Insider Preview / 18970.1005.rs_prerelease_flt.190825-1835
+```
+
+- Windows.Internal.Devices.Sensors.dll v4 (Desktop): 19536
+    - Windows.Internal.Devices.Sensors.FlipSensor
+    - Windows.Internal.Devices.Sensors.FoldSensor
+    - Windows.Internal.System.TwoPanelFolioHingeDevicePosture
+    - Windows.Internal.System.TwoPanelHingedDevicePosture
 
 #### Touch Components
 
 - CapImg: TODO! After 9600 (checked) Before (or equal to) 9834 (checked)
-- HeatCore classic: TODO! (between 14910 (unchecked) and 14965 (checked))
+- HeatCore classic: TODO! (between 14941 (checked) and 14965 (checked))
+
+```
+14942.1000.rs_prerelease.161003-1929 Insider Preview
+14943.1000.rs_prerelease.161004-1700
+14944.1000.rs_prerelease.161005-1700
+14946.1000.rs_prerelease.161007-1700 Insider Preview
+14948.1000.rs_prerelease.161011-1700
+14949.1000.rs_prerelease.161012-1700
+14951.1000.rs_prerelease.161014-1700 Insider Preview
+14954.1000.rs_prerelease.161019-1700
+14955.1000.rs_prerelease.161020-1700 Insider Preview
+14958.1000.rs_prerelease.161025-1700
+14959.1000.rs_prerelease.161026-1700 Insider Preview
+14961.1000.rs_prerelease.161028-2228
+14963.1000.rs_prerelease.161101-1742
+14964.1000.rs_prerelease.161102-1700 / 14964.1000.rs_shell_vhub_midtop.161107-2300
+```
+
 - HidSpi: 17655 (Desktop)
 - HeatCore extension: 18252
 
