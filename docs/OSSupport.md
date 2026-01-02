@@ -11,10 +11,19 @@
 
 ### Components
 
+#### Touch Components
+
+- CapImg: TODO! After 9600 (checked) Before (or equal to) 9834 (checked)
+- HeatCore classic: TODO! (between 14910 (unchecked) and 14965 (checked))
 - HidSpi: 17655
-- CapImg: 
-- HeatCore classic: TODO (between 14910 (unchecked) and 14965 (checked))
 - HeatCore extension: 18252
+
+#### Cellular components
+
+- Microsoft-Windows-CoreSystem-Cellcore-CellularAPI (ihvrilproxy.dll, rilproxy.dll, cellularapi.dll): TODO! After 9600 (checked) Before (or equal to) 9834 (checked)
+- PhoneSvc and friends: TODO! After 9600 (checked) Before (or equal to) 9834 (checked)
+- PhoneSvc and friends: 10537 (Previously removed in 10131)
+- PhoneProviders and friends: 10547
 
 ### Driver Extensions / Libraries
 
@@ -23,10 +32,11 @@
 
 ### WDDM
 
-- WDDM 2.4: 
+- WDDM 2.3: TODO!
+- WDDM 2.4: 16362
 - WDDM 2.5: 17618
 - WDDM 2.6: 18252
-- WDDM 2.7: 
+- WDDM 2.7: TODO!
 
 ### HAL Support
 
@@ -34,7 +44,7 @@
 
 ### UMDF
 
-- Using dirid 13 for UMDF drivers: 
+- Using dirid 13 for UMDF drivers: TODO!
 
 ## Removals:
 
@@ -47,10 +57,11 @@
 ### Cellular related
 
 - cellular stuff (need to expand): TODO!
+- PhoneSvc and friends: Removed in 10131
 - Actual EMB Support in WwanSvc: Removed in 18912 (WP Extension OIDs)
 - PhoneProvider CellLine and IMS: Removed in 19569
 - Microsoft-Windows-CoreSystem-Cellcore-CellularAPI (ihvrilproxy.dll, rilproxy.dll, cellularapi.dll): Removed in 21313
-- the actual build which breaks old phoneprovider: (Note: patched in https://github.com/WOA-Project/SurfaceDuo-Drivers/commit/75ce1d6a1639a059bd00bb507b493f3540ae991a: ANYSOC: Fix PhoneProvider compatibility with PhoneSvc on GE / Nov 9, 2023, around 25992.1000)
+- the actual build which breaks old phoneprovider: TODO! (Note: patched in https://github.com/WOA-Project/SurfaceDuo-Drivers/commit/75ce1d6a1639a059bd00bb507b493f3540ae991a: ANYSOC: Fix PhoneProvider compatibility with PhoneSvc on GE / Nov 9, 2023, around 25992.1000)
 
 ## Currently in use in INFs
 
