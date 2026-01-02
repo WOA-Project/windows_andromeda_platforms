@@ -1,15 +1,34 @@
 # OS Driver feature support tidbits
 
+| What?                                                | Introduced in   | Removed in |
+|------------------------------------------------------|-----------------|------------|
+| AddSoftware and friends (INF Directive)              | TODO            | N/A   |
+| AddComponent and friends (INF Directive)             | TODO            | N/A   |
+| Extension INF support                                | TODO            | N/A   |
+| HidSpi Filter Levels (Touch)                         | TODO            | N/A   |
+| Using dirid 13 for UMDF drivers                      | TODO            | N/A   |
+| GICv3                                                | TODO            | N/A   |
+| MSNfcI2C547 (on desktop only)                        | TODO            | 18890 |
+| CapImg                                               | TODO! After 9600 (checked) Before (or equal to) 9834 (checked) | 18252 |
+| HeatCore classic                                     | TODO! (between 14941 (checked) and 14965 (checked)) | 18252 |
+| WDDM 2.3                                             | 16170           | N/A   |
+| mshwnclx.sys (Driver Extensions / Libraries)         | 16222           | N/A   |
+| WDDM 2.4                                             | 16362 (!=17000) | N/A   |
+| KNetPwrDepBroker.sys (Driver Extensions / Libraries) | 16362 (!=17000) | N/A   |
+| WDDM 2.5                                             | 17618           | N/A   |
+| AddEventProvider and friends (INF Directive)         | 17623           | N/A   |
+| HidSpi (Touch) (Desktop)                             | 17655           | N/A   |
+| AddFilter and friends (INF Directive)                | 17704           | N/A   |
+| HeatCore extension (Touch)                           | 18252           | N/A   |
+| WDDM 2.6                                             | 18252           | N/A   |
+| WDDM 2.7                                             | 18890           | N/A   |
+| ExAllocatePool2                                      | TODO > 18941, <= 18975 | N/A |
+| PhoneSvc and friends                                 | TODO > 9600, <= 9834 | 10131 |
+| PhoneSvc and friends                                 | 10537           | N/A   |
+| PhoneProviders and friends                           | 10547           | N/A   |
+| ihvrilproxy.dll, rilproxy.dll, cellularapi.dll       | TODO > 9600, <= 9834 | 21313 |
+
 ## Additions
-
-### INF Directives
-
-- AddSoftware and friends: TODO!
-- AddComponent and friends: TODO!
-- AddEventProvider and friends: 17623
-- AddFilter and friends: 17704
-
-### Components
 
 #### Sensor Components
 
@@ -56,9 +75,6 @@
 
 #### Touch Components
 
-- CapImg: TODO! After 9600 (checked) Before (or equal to) 9834 (checked)
-- HeatCore classic: TODO! (between 14941 (checked) and 14965 (checked))
-
 ```
 14942.1000.rs_prerelease.161003-1929 Insider Preview
 14943.1000.rs_prerelease.161004-1700
@@ -76,57 +92,13 @@
 14964.1000.rs_prerelease.161102-1700 / 14964.1000.rs_shell_vhub_midtop.161107-2300
 ```
 
-- HidSpi: 17655 (Desktop)
-- HeatCore extension: 18252
-- HidSpi Filter Levels: TODO!
-
-#### Cellular components
-
-- Microsoft-Windows-CoreSystem-Cellcore-CellularAPI (ihvrilproxy.dll, rilproxy.dll, cellularapi.dll): TODO! After 9600 (checked) Before (or equal to) 9834 (checked)
-- PhoneSvc and friends: TODO! After 9600 (checked) Before (or equal to) 9834 (checked)
-- PhoneSvc and friends: 10537 (Previously removed in 10131)
-- PhoneProviders and friends: 10547
-
-### Driver Extensions / Libraries
-
-- mshwnclx.sys: 16222
-- KNetPwrDepBroker.sys: 16362
-
-### WDDM
-
-- WDDM 2.3: 16170
-- WDDM 2.4: 16362 (but not the original compiles of 17000)
-- WDDM 2.5: 17618
-- WDDM 2.6: 18252
-- WDDM 2.7: 18890
-
-### HAL Support
-
-- GICv3: TODO!
-
-### UMDF
-
-- Using dirid 13 for UMDF drivers: TODO!
-
-### Kernel APIs:
-
-- ExAllocatePool2: TODO! After 18941 (checked, no), Before 18975 (checked, yes)
-
 ## Removals:
-
-### Components
-
-- CapImg: 18252
-- HeatCore classic: 18252
-- MSNfcI2C547: Removed in 18890 (on desktop only)
 
 ### Cellular related
 
 - cellular stuff (need to expand): TODO!
-- PhoneSvc and friends: Removed in 10131
 - Actual EMB Support in WwanSvc: Removed in 18912 (WP Extension OIDs)
 - PhoneProvider CellLine and IMS: Removed in 19569
-- Microsoft-Windows-CoreSystem-Cellcore-CellularAPI (ihvrilproxy.dll, rilproxy.dll, cellularapi.dll): Removed in 21313
 - the actual build which breaks old phoneprovider: TODO! (Note: patched in https://github.com/WOA-Project/SurfaceDuo-Drivers/commit/75ce1d6a1639a059bd00bb507b493f3540ae991a: ANYSOC: Fix PhoneProvider compatibility with PhoneSvc on GE / Nov 9, 2023, around 25992.1000)
 
 ## Currently in use in INFs
