@@ -107,6 +107,10 @@
 
 - Using dirid 13 for UMDF drivers: TODO!
 
+### Kernel APIs:
+
+- ExAllocatePool2: After 18941 (checked, no), Before 18975 (checked, yes)
+
 ## Removals:
 
 ### Components
