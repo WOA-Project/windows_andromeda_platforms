@@ -94,7 +94,7 @@
 
 ### WDDM
 
-- WDDM 2.3: TODO!
+- WDDM 2.3: 16170
 - WDDM 2.4: 16362 (but not the original compiles of 17000)
 - WDDM 2.5: 17618
 - WDDM 2.6: 18252
