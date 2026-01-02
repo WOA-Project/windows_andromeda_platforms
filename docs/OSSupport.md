@@ -11,11 +11,15 @@
 
 ### Components
 
+#### Sensor Components
+
+- Windows.Internal.Devices.Sensors.dll: 17704 (Desktop)
+
 #### Touch Components
 
 - CapImg: TODO! After 9600 (checked) Before (or equal to) 9834 (checked)
 - HeatCore classic: TODO! (between 14910 (unchecked) and 14965 (checked))
-- HidSpi: 17655
+- HidSpi: 17655 (Desktop)
 - HeatCore extension: 18252
 
 #### Cellular components
