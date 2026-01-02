@@ -4,8 +4,8 @@
 
 ### INF Directives
 
-- AddSoftware and friends: 
-- AddComponent and friends: 
+- AddSoftware and friends: TODO!
+- AddComponent and friends: TODO!
 - AddEventProvider and friends: 17623
 - AddFilter and friends: 17704
 
@@ -78,6 +78,7 @@
 
 - HidSpi: 17655 (Desktop)
 - HeatCore extension: 18252
+- HidSpi Filter Levels: TODO!
 
 #### Cellular components
 
@@ -101,7 +102,7 @@
 
 ### HAL Support
 
-- GICv3:
+- GICv3: TODO!
 
 ### UMDF
 
@@ -109,7 +110,7 @@
 
 ### Kernel APIs:
 
-- ExAllocatePool2: After 18941 (checked, no), Before 18975 (checked, yes)
+- ExAllocatePool2: TODO! After 18941 (checked, no), Before 18975 (checked, yes)
 
 ## Removals:
 
