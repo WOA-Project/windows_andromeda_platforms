@@ -113,7 +113,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Camera\UltraWideSensor" Name="SurfaceDuo2_camultrawidesensor.inf" ID="SurfaceDuo2_camultrawidesensor"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Cellular\IPA" Name="surfaceduo2_ipa.inf" ID="surfaceduo2_ipa"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\EVA" Name="SurfaceDuo2_eva.inf" ID="SurfaceDuo2_eva"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Graphics\DXKM" Name="SurfaceDuo2_dx.inf" ID="SurfaceDuo2_dx"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\KMDOD" Name="sampledisplay.inf" ID="sampledisplay"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\SecurityProcessor" Name="SurfaceDuo2_sp8350.inf" ID="SurfaceDuo2_sp8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Sensors\SSC" Name="SurfaceDuo2_sensors.inf" ID="SurfaceDuo2_sensors"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Subsystems\CombinedSubsystem" Name="SurfaceDuo2_subsys.inf" ID="SurfaceDuo2_subsys"/>
