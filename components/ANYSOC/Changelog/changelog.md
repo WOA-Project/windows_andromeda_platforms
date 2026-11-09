@@ -1,16 +1,13 @@
-## Surface Duo BSP - Version 2412.74 (Cherry blossom)
+## Surface Duo BSP - Version 2611.30 (Gamma)
 
 ![image](https://github.com/user-attachments/assets/3f1938b0-5f22-4e55-8fdf-5b66eaf72188)
-
-> [!NOTE]
-> Higher thermals in Windows is currently expected and is not dangerous
 
 <details>
   <summary>General information</summary>
   <p>
-**Released:** 12/24/2024 00:00 AM UTC+2
+**Released:** 11/09/2026 10:00 PM UTC+1
 
-**Quality:** Preview
+**Quality:** Beta
 
 You can view compatibility for this release, along with important information and what works, and what doesn't at this link: https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Status.md
   </p>
@@ -19,8 +16,6 @@ You can view compatibility for this release, along with important information an
 <details>
   <summary>Important information</summary>
   <p>
-- ⚠️ For users who are updating from an earlier release than version 2301.93, please reinstall.
-
 - ⚠️ If you need dual boot, you will have to make your own image. Please follow this guidance: https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Install/DualBoot.md
 
 - ⚠️ You need to backup your original boot image for OTAs to work with Android. When you get an OTA, you will want to revert your boot image for the update to work, or you'll have to use an official OTA recovery package.
@@ -33,7 +28,7 @@ You can view compatibility for this release, along with important information an
 
 [▶️ Install Surface Duo 2 UEFI and Drivers for Windows from scratch (Clean Installation)](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Install/Client/InstallWindows-SurfaceDuo2.md)
 
-[▶️ Update from an older version of Surface Duo UEFI and Drivers (both got updated with v2412.74)](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Update/UpdateDriversAndUEFI.md)
+[▶️ Update from an older version of Surface Duo UEFI and Drivers (both got updated with v2611.30)](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Update/UpdateDriversAndUEFI.md)
 
 ---
 
@@ -54,13 +49,13 @@ These files are to be used when clean installing Windows on your Surface Duo or 
 <tr>
 <td>
 
-[SurfaceDuo-Drivers-v2412.74-Desktop-Epsilon.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/SurfaceDuo-Drivers-v2412.74-Desktop-Epsilon.7z)
+[SurfaceDuo-Drivers-v2611.30-Desktop-Epsilon.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2611.30/SurfaceDuo-Drivers-v2611.30-Desktop-Epsilon.7z)
 </td>
 <td>
 
-- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Fast.Boot.zip)
-- [Dual Boot for FW 2022.902.48 (Latest OTA for Surface Duo (1st Gen) devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Dual.Boot.zip)
-- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.FD.for.making.your.own.Dual.Boot.Image.zip)
+- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2611.30/Surface.Duo.1st.Gen.UEFI-v2611.30.Fast.Boot.zip)
+- [Dual Boot for FW 2022.902.48 (Latest OTA for Surface Duo (1st Gen) devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2611.30/Surface.Duo.1st.Gen.UEFI-v2611.30.Dual.Boot.zip)
+- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2611.30/Surface.Duo.1st.Gen.UEFI-v2611.30.FD.for.making.your.own.Dual.Boot.Image.zip)
 </td>
 <td>Surface Duo (1st Gen)</td>
 <td>Windows 10 Version 2004 and higher</td>
@@ -72,13 +67,13 @@ N/A
 <tr>
 <td>
 
-[SurfaceDuo-Drivers-v2412.74-Desktop-Zeta.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/SurfaceDuo-Drivers-v2412.74-Desktop-Zeta.7z)
+[SurfaceDuo-Drivers-v2611.30-Desktop-Zeta.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2611.30/SurfaceDuo-Drivers-v2611.30-Desktop-Zeta.7z)
 </td>
 <td>
 
-- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.2.UEFI-v2412.74.Fast.Boot.zip)
-- [Dual Boot for FW 2023.501.541 (Latest OTA for Surface Duo 2 devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.2.UEFI-v2412.74.Dual.Boot.zip)
-- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.2.UEFI-v2412.74.FD.for.making.your.own.Dual.Boot.Image.zip)
+- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2611.30/Surface.Duo.2.UEFI-v2611.30.Fast.Boot.zip)
+- [Dual Boot for FW 2023.501.541 (Latest OTA for Surface Duo 2 devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2611.30/Surface.Duo.2.UEFI-v2611.30.Dual.Boot.zip)
+- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2611.30/Surface.Duo.2.UEFI-v2611.30.FD.for.making.your.own.Dual.Boot.Image.zip)
 </td>
 <td>Surface Duo 2</td>
 <td>Windows 11 Version 24H2 and higher</td>
@@ -90,13 +85,13 @@ N/A
 <tr>
 <td>
 
-[SurfaceDuo-Drivers-v2412.74-Desktop-Epsilon.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/SurfaceDuo-Drivers-v2412.74-Desktop-Epsilon.7z)
+[SurfaceDuo-Drivers-v2611.30-Desktop-Epsilon.7z](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2611.30/SurfaceDuo-Drivers-v2611.30-Desktop-Epsilon.7z)
 </td>
 <td>
 
-- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Secure.Boot.Disabled.Fast.Boot.zip)
-- [Dual Boot for FW 2022.902.48 (Latest OTA for Surface Duo (1st Gen) devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Secure.Boot.Disabled.Dual.Boot.zip)
-- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Secure.Boot.Disabled.FD.for.making.your.own.Dual.Boot.Image.zip)
+- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2611.30/Surface.Duo.1st.Gen.UEFI-v2611.30.Secure.Boot.Disabled.Fast.Boot.zip)
+- [Dual Boot for FW 2022.902.48 (Latest OTA for Surface Duo (1st Gen) devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2611.30/Surface.Duo.1st.Gen.UEFI-v2611.30.Secure.Boot.Disabled.Dual.Boot.zip)
+- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2611.30/Surface.Duo.1st.Gen.UEFI-v2611.30.Secure.Boot.Disabled.FD.for.making.your.own.Dual.Boot.Image.zip)
 </td>
 <td>Surface Duo (1st Gen)</td>
 <td>Windows 10 Version 1803 to Windows 10 Version 1909</td>
@@ -133,159 +128,6 @@ In case you're having issues/troubles updating within the OS on the device, you 
 
 ---
 
-### Full Flash Update Files
-
-We're now providing FFU files directly from the release page outside of Telegram. The FFU files are also still uploaded on Telegram FFU channel, and they match this very specific release.
-
-Learn more about FFU files: [FFU Flashing Guide](https://github.com/WOA-Project/SurfaceDuo-Guides/blob/main/Install/Client/FlashingFFU.md)
-
-<details>
-
-### Surface Duo (1st Gen)
-
-UEFI files:
-- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Fast.Boot.zip)
-- [Dual Boot for FW 2022.902.48 (Latest OTA for Surface Duo (1st Gen) devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.Dual.Boot.zip)
-- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.1st.Gen.UEFI-v2412.74.FD.for.making.your.own.Dual.Boot.Image.zip)
-
-FFU files:
-<table>
-<tr>
-<td>FFU File</td>
-<td>OS Version</td>
-<td>Notes</td>
-</tr>
-<tr>
-<td>
-For 128GB variants
-
-[OEMEP_128GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMEP_128GB_HalfSplit.ffu)
-
-Size: 7.06 GB
-
-SHA1: `C5DD9D9A96821CDDED7386DFDAB678D19EFDF1FB`
-</td>
-<td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
-<td><details>
-
-Assumed Compatibility with 256gb variants (may have issues but should work, if issues arise we're not responsible and you should be able to recover either way, the main issue is more the split being 64(Windows)/192(Android) than anything else!).
-
-1) After "Getting Ready" boot, on the second boot, the device may show a black screen, if this happens, press the power button once and it will continue to oobe after a minute. Be patient and don't press it more than once.
-</details></td>
-</tr>
-<tr>
-<td>
-For 256GB variants
-
-[OEMEP_256GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMEP_256GB_HalfSplit.ffu)
-
-Size: 7.06 GB
-
-SHA1: `C46B2BAF5DB75C9B68E186EDF1731164348A61EB`
-</td>
-<td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
-<td><details>
-
-No Compatibility at all with 128GB, please do not flash on a 128GB Surface Duo!
-
-1) After "Getting Ready" boot, on the second boot, the device may show a black screen, if this happens, press the power button once and it will continue to oobe after a minute. Be patient and don't press it more than once.
-</details></td>
-</tr>
-<tr>
-<td>
-4GB Android, everything else for Windows
-
-[OEMEP_MaximizedForWindows.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMEP_MaximizedForWindows.ffu)
-
-Size: 7.06 GB
-
-SHA1: `62E0AA8EE83D6B295BEEB2AC81E6BB06EF38C0C0`
-</td>
-<td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
-<td><details>
-
-Official Variant: 4GB only for Android, everything else for Windows, 256GB users may have to expand the MainOS partition using Disk Management in windows by using the "Extend Partition" option.
-
-1) After "Getting Ready" boot, on the second boot, the device may show a black screen, if this happens, press the power button once and it will continue to oobe after a minute. Be patient and don't press it more than once.
-</details></td>
-</tr>
-</table>
-
-
-### Surface Duo 2
-
-UEFI Files:
-- [Fast Boot](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.2.UEFI-v2412.74.Fast.Boot.zip)
-- [Dual Boot for FW 2023.501.541 (Latest OTA for Surface Duo 2 devices)](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.2.UEFI-v2412.74.Dual.Boot.zip)
-- [FD for making your own Dual Boot Image](https://github.com/WOA-Project/SurfaceDuo-Releases/releases/download/2412.74/Surface.Duo.2.UEFI-v2412.74.FD.for.making.your.own.Dual.Boot.Image.zip)
-
-FFU Files
-<table>
-<tr>
-<td>FFU File</td>
-<td>OS Version</td>
-<td>Notes</td>
-</tr>
-<tr>
-<td>
-For 128GB variants
-
-[OEMZE_128GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMZE_128GB_HalfSplit.ffu)
-
-Size: 6.51 GB
-
-SHA1: `A65A4FCF6C5485447F83DA15E9899E2C8AB89190`
-</td>
-<td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
-<td><details>
-
-Assumed Compatibility with 256gb and 512gb variants (may have issues but should work, if issues arise we're not responsible and you should be able to recover either way, the main issue is more the split being 64(Windows)/192(Android) than anything else!).
-
-1) After "Getting Ready" boot, on the second boot, the device may show a black screen, if this happens, press the power button once and it will continue to oobe after a minute. Be patient and don't press it more than once.
-</details></td>
-</tr>
-<tr>
-<td>
-For 256GB variants
-
-[OEMZE_256GB_HalfSplit.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMZE_256GB_HalfSplit.ffu)
-
-Size: 6.45 GB
-
-SHA1: `849940B43F7CAEA1C3FCC53E89AED3865B624E27`
-</td>
-<td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
-<td><details>
-
-No Compatibility at all with 128GB, please do not flash on a 128GB Surface Duo! Assumed Compatibility with 512gb variants (may have issues but should work, if issues arise we're not responsible and you should be able to recover either way, the main issue is more the split being different than anything else!). 
-
-1) After "Getting Ready" boot, on the second boot, the device may show a black screen, if this happens, press the power button once and it will continue to oobe after a minute. Be patient and don't press it more than once.
-</details></td>
-</tr>
-<tr>
-<td>
-4GB Android, everything else for Windows
-
-[OEMZE_MaximizedForWindows.ffu](https://fullflash.pvabel.net/DuoWOA/v2412.74/OEMZE_MaximizedForWindows.ffu)
-
-Size: 6.43 GB
-
-SHA1: `D6FCB4FE20DA68D7625ECE0A0BF567A28BDBAD22`
-</td>
-<td>Windows 11 Version 24H2 (26100.1742) (en-US)</td>
-<td><details>
-
-Official Variant: 4GB only for Android, everything else for Windows, 256GB/512GB users may have to expand the MainOS partition using Disk Management in windows by using the "Extend Partition" option.
-
-1) After "Getting Ready" boot, on the second boot, the device may show a black screen, if this happens, press the power button once and it will continue to oobe after a minute. Be patient and don't press it more than once.
-</details></td>
-</tr>
-</table>
-
-</details>
-
----
-
 ### Release notes
 
 >[!NOTE]
@@ -293,307 +135,37 @@ Official Variant: 4GB only for Android, everything else for Windows, 256GB/512GB
 
 Common:
 
-- Enable advanced USB Function Modes in the Surface Settings application
-- Secrets
+- Improvements to driver stability in various areas. This should result in less BSODs across the board for any driver responsible to input, calibration, provisioning, etc.. (anything surface related)
 
 Surface Duo (1st Gen):
 
-- General Driver Improvements and Updates
+- The main speaker now works under Windows. It only works at max volume for the moment. We are still working on the board calibration files to make this play nicely with lower volume levels. Mute is also functional.
+- The earpiece speaker is functional
+- You can now make phone calls under WOA as a result
+- Some of the microphones may not work as expected, we're still working on it
+- Addressed a few issues preventing applets from loading into trustzone, in preparation for the fingerprint sensor to work
+- Fixed an issue resulting in the device crashing when updated to newer Windows 10 Version 26HX versions in regards to the sTPM driver
+- Updated the TCG spec of the TPM driver to March 2019 (newer is coming later)
+- Resolved a few issues around USB-C OTG and overall USB experience
+- You can now plug external displays via the USB C port and they will just work
+- Revamped the panel driver:
+  - Brightness can no longer be desynced between displays
+  - Displays are now fully calibrated thanks to new code designed to load the device factory calibration data
+  - Calibration is also available for brightness/millinits levels
+  - Improvements to the display support in windows.
+    NOTE: Currently there is an issue where display output on both displays may appear slightly corrupted or garbled with weird line artifacts. Locking and Re-unlocking the device using the power button will fix this (via resetting the displays). A fix is coming in a later update.
+- Fixed an issue preventing wakable gpio interrupts from working properly.
+- Fixed an issue that resulted in weak bluetooth / weak range performance.
 
 Surface Duo 2:
 
-- General Driver Improvements and Updates
+- Fixed an issue resulting in the device crashing on startup if you touched the digitizers during boot up
 
 ---
 
-- Please download ```SurfaceDuo-Drivers-v2412.74-Desktop-Epsilon.7z``` if you want drivers for Surface Duo 1
+- Please download ```SurfaceDuo-Drivers-v2611.30-Desktop-Epsilon.7z``` if you want drivers for Surface Duo 1
 
-- Please download ```SurfaceDuo-Drivers-v2412.74-Desktop-Zeta.7z``` if you want drivers for Surface Duo 2
-
----
-
-- We are aware auto pairing of the pen will not work anymore on Windows 10, a fix is due in the next update.
-
-<details>
-  <summary>Known issues</summary>
-  <p>
-- Installing Gallium Semester Insider builds may lead to a black screen on second boot of the OS, simply press the power button to continue.
-
-- Booting Windows 10 18362/18363 will lead to "static screen" effects on the right display, much like driver releases from last year did on any version of Windows. A fix is being worked on for the next release.
-
-- The TPM driver is not working for Windows 10 18362/18363. A fix is being worked on for the next release.
-
-- The Posture driver is not working for Windows 10 18362/18363. A fix is being worked on for the next release.
-
-- Enhanced auto rotation is not working for Windows 10 18362/18363. A fix is being worked on for the next release.
-
-- Brightness control is glitchy on both displays.
-
-- On device speakers are not functional.
-
-- Dongles are not detected correctly when plugged into the USB Type-C port.
-
-- Updating drivers may lead to weird configurations if done on old driver releases.
-
-- MAC addresses do not reflect the real addresses asigned to the device.
-
-- BitLocker drive encryption is not available.
-
-- USB dongles that are not externally powered may not currently work.
-
-- USB-C Billboard devices will not currently work.
-
-- External Display Stream support will not currently work.
-
-- Additional information provided by the posture sensor is currently not available for public consumption. This includes peek events.
-
-- Digitizers will not react to the device being folded over.
-
-- Displays will not react to the device being folded over most of the time.
-
-- Physical device data is incorrect.
-
-- Digitizers aren't calibrated correctly.
-
-- Flipping the device is not smooth.
-
-- Users upgrading from releases older than the January ones may want to clean install again.
-
-- Booting Windows 10 18362/18363 with Secure Boot enabled is not currently supported and will result in a broken installation.
-
-- In some cases, booting the UEFI image may lead to "static screen" effects on the left display. Please do not force reboot the device as it may interrupt the installation process, if ongoing, and instead please wait a few minutes.
-
-- Windows Recovery environment lacks drivers unless Windows has performed a Feature Update at least once.
-
-- sRGB is not available currently, and displays will not react to ICC profiles being applied.
-  </p>
-</details>
-
----
-
-<details>
-  <summary>Accessing Foldable Sensors from your applications</summary>
-  <p>
-In order to currently access the sensor data given by the foldable sensors, you need to use the following apis:
-
-
-- Windows.Devices.Sensors.HingeAngleSensor*
-- Windows.Internal.Devices.Sensors.FlipSensor* (2)
-- Windows.Internal.System.TwoPanelHingePostureDevice* (2)
-
-
-(2): These apis require the use of an externally sourced winmd available from https://github.com/ADeltaX/InternalWinMD/blob/master/%23winmd/Windows.Internal.Devices.Sensors.winmd
-
-
-In the future, further apis will be functional (specifically under the Windows.System.Preview namespace). Consider this an early "thing".
-
-
-The following API may be used to determine if your app is used on a dual screen device: https://docs.microsoft.com/en-us/uwp/api/windows.ui.windowmanagement.windowingenvironment.getdisplayregions?view=winrt-22621
-
-The following API may be used to determine on which display region your app is currently being shown: https://docs.microsoft.com/en-us/uwp/api/windows.ui.windowmanagement.appwindow.getdisplayregions?view=winrt-22621
-
-The following API may be used to move your application to the other display: https://docs.microsoft.com/en-us/uwp/api/windows.ui.windowmanagement.appwindow.requestmoverelativetodisplayregion?view=winrt-22621
-
-THe following API may be used to move your application to a specific display: https://docs.microsoft.com/en-us/uwp/api/windows.ui.windowmanagement.appwindow.requestmovetodisplayregion?view=winrt-22621
-
-The following API may be used for spanning purposes: https://docs.microsoft.com/en-us/uwp/api/windows.ui.windowmanagement.appwindow.requestsize?view=winrt-22621
-
-The Windowing Environment for Windows Desktop editions (outside of tablet mode) is Overlapped. Tiled is used for Tablet Mode and Windows Core OS's ModernPC.
-
-
-### Code Samples
-
-```cpp
-#include <iostream>
-#include <windows.h>
-#include <winrt/Windows.Foundation.h>
-#include <winrt/Windows.Internal.Devices.Sensors.h>
-#include <winrt/Windows.Internal.System.h>
-#include <winrt/Windows.System.Preview.h>
-#include <winrt/Windows.UI.WindowManagement.h>
-#include <winrt/Windows.Foundation.Collections.h>
-
-using namespace std;
-using namespace winrt;
-using namespace Windows::Foundation;
-using namespace Windows::Internal::Devices::Sensors;
-using namespace Windows::Internal::System;
-using namespace Windows::System::Preview;
-using namespace Windows::UI::WindowManagement;
-using namespace Windows::Foundation::Collections;
-
-VOID OnFoldSensorReadingChanged(FoldSensor const&, FoldSensorReadingChangedEventArgs const& args)
-{
-	try {
-		printf("Fold sensor state changed.\n");
-		switch (args.Reading().GestureState())
-		{
-		case GestureState::Started:
-			std::cout << "Fold started\n" << std::endl;
-			break;
-		case GestureState::Completed:
-			std::cout << "Fold stopped\n" << std::endl;
-			break;
-		case GestureState::Cancelled:
-			std::cout << "Fold cancelled\n" << std::endl;
-			break;
-		case GestureState::Unknown:
-			std::cout << "Fold unknown\n" << std::endl;
-			break;
-		}
-
-		for (auto panel : args.Reading().ContributingPanel())
-		{
-			printf("Panel: %s\n", to_string(panel).c_str());
-		}
-		
-		std::cout << "Initial angle " << args.Reading().InitialAngle() << std::endl;
-		std::cout << "Final angle " << args.Reading().FinalAngle() << std::endl;
-		
-		switch (args.Reading().FoldType())
-		{
-		case FoldType::Closing:
-			std::cout << "Fold Closing\n" << std::endl;
-			break;
-		case FoldType::Opening:
-			std::cout << "Fold Opening\n" << std::endl;
-			break;
-		case FoldType::NotDetected:
-			std::cout << "Fold NotDetected\n" << std::endl;
-			break;
-		}
-	}
-	catch (...) {}
-}
-
-VOID PrintDetails(TwoPanelHingedDevicePostureReading const& args)
-{
-	try {
-		std::cout << "Panel1 " << args.Panel1Id().c_str() << "\n" << std::endl;
-		std::cout << "Panel2 " << args.Panel2Id().c_str() << "\n" << std::endl;
-
-		std::cout << "Panel1 Orientation " << (int)args.Panel1Orientation() << "\n" << std::endl;
-		std::cout << "Panel2 Orientation " << (int)args.Panel2Orientation() << "\n" << std::endl;
-
-		switch (args.HingeState())
-		{
-		case Windows::Internal::System::HingeState::Unknown:
-			std::cout << "Hinge1State Unknown\n" << std::endl;
-			break;
-		case Windows::Internal::System::HingeState::Closed:
-			std::cout << "Hinge1State Closed\n" << std::endl;
-			break;
-		case Windows::Internal::System::HingeState::Concave:
-			std::cout << "Hinge1State Concave\n" << std::endl;
-			break;
-		case Windows::Internal::System::HingeState::Flat:
-			std::cout << "Hinge1State Flat\n" << std::endl;
-			break;
-		case Windows::Internal::System::HingeState::Convex:
-			std::cout << "Hinge1State Convex\n" << std::endl;
-			break;
-		case Windows::Internal::System::HingeState::Full:
-			std::cout << "Hinge1State Full\n" << std::endl;
-			break;
-		}
-	}
-	catch (...) {}
-}
-
-VOID OnPostureChanged(TwoPanelHingedDevicePosture const&, TwoPanelHingedDevicePostureReadingChangedEventArgs const& args)
-{
-	try {
-		printf("Posture sensor state changed.\n");
-		PrintDetails(args.Reading());
-	}
-	catch (...) {}
-}
-
-VOID OnSensorReadingChanged(FlipSensor const&, FlipSensorReadingChangedEventArgs const& args)
-{
-	try {
-		printf("Flip sensor state changed.\n");
-		switch (args.Reading().GestureState())
-		{
-		case GestureState::Started:
-			std::cout << "Flip started\n" << std::endl;
-			break;
-		case GestureState::Completed:
-			std::cout << "Flip stopped\n" << std::endl;
-			break;
-		case GestureState::Cancelled:
-			std::cout << "Flip cancelled\n" << std::endl;
-			break;
-		case GestureState::Unknown:
-			std::cout << "Flip unknown\n" << std::endl;
-			break;
-		}
-	}
-	catch (...) {}
-}
-
-int main()
-{
-    init_apartment();
-	printf("Trying to get flip sensor.\n");
-	try {
-		FlipSensor flip = FlipSensor::GetDefaultAsync().get();
-		if (flip == nullptr)
-		{
-			printf("Flip sensor not found.\n");
-		}
-		else
-		{
-			printf("Starting listening session for flip sensor.\n");
-			flip.ReadingChanged(OnSensorReadingChanged);
-		}
-		printf("Press any key to stop\n");
-		std::cin.get();
-	}
-	catch (...) {}
-
-	printf("Trying to get posture sensor.\n");
-	try {
-		TwoPanelHingedDevicePosture Posture = TwoPanelHingedDevicePosture::GetDefaultAsync().get();
-		if (Posture == nullptr)
-		{
-			printf("Posture sensor not found.\n");
-		}
-		else
-		{
-			auto curpst = Posture.GetCurrentPostureAsync().get();
-			if (curpst != nullptr)
-			{
-				PrintDetails(curpst);
-			}
-			printf("Starting listening session for Posture sensor.\n");
-			Posture.PostureChanged(OnPostureChanged);
-		}
-		printf("Press any key to stop\n");
-		std::cin.get();
-	}
-	catch (...) {}
-
-	printf("Trying to get fold sensor.\n");
-	try {
-		FoldSensor fold = FoldSensor::GetDefaultAsync().get();
-		if (fold == nullptr)
-		{
-			printf("Fold sensor not found.\n");
-		}
-		else
-		{
-			printf("Starting listening session for fold sensor.\n");
-			fold.ReadingChanged(OnFoldSensorReadingChanged);
-		}
-		printf("Press any key to stop\n");
-		std::cin.get();
-	}
-	catch (...) {}
-}
-```
-  </p>
-</details>
+- Please download ```SurfaceDuo-Drivers-v2611.30-Desktop-Zeta.7z``` if you want drivers for Surface Duo 2
 
 ---
 
@@ -676,6 +248,6 @@ This release is a Preview release. Bug exists and may happen. If you notice a bu
 
 ---
 
-Seems Faster(TM)
+Keep unfolding.
 
 -- The DuoWoA authors
