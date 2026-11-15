@@ -1,7 +1,5 @@
 ## Surface Duo BSP - Version 2611.30 (Gamma)
 
-![image](https://github.com/user-attachments/assets/3f1938b0-5f22-4e55-8fdf-5b66eaf72188)
-
 <details>
   <summary>General information</summary>
   <p>
@@ -144,7 +142,7 @@ Surface Duo (1st Gen):
 - You can now make phone calls under WOA as a result
 - Some of the microphones may not work as expected, we're still working on it
 - Addressed a few issues preventing applets from loading into trustzone, in preparation for the fingerprint sensor to work
-- Fixed an issue resulting in the device crashing when updated to newer Windows 10 Version 26HX versions in regards to the sTPM driver
+- Fixed an issue resulting in the device crashing when updated to newer Windows 11 Version 26HX versions in regards to the sTPM driver
 - Updated the TCG spec of the TPM driver to March 2019 (newer is coming later)
 - Resolved a few issues around USB-C OTG and overall USB experience
 - You can now plug external displays via the USB C port and they will just work
