@@ -1,4 +1,4 @@
-## Surface Duo BSP - Version 2611.30 (Gamma)
+## Surface Duo BSP - Version 2611.50 (Delta)
 
 <details>
   <summary>General information</summary>
