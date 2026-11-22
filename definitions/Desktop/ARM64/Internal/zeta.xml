@@ -292,6 +292,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\VibrationMotor" Name="qchwnhaptics8350.inf" ID="qchwnhaptics8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\WLAN\Notifier" Name="qcwifinotifiersrvc.inf" ID="qcwifinotifiersrvc"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\WLAN\SleepMgr" Name="qcWlanSleepMgr8350.inf" ID="qcWlanSleepMgr8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\APO" Name="qcaudminiport_apo8350.inf" ID="qcaudminiport_apo8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Audio\ListenSoundModel\Calibration" Name="QCListenSM_swc_ext8350.inf" ID="QCListenSM_swc_ext8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Cellular\5GNRCoexistanceManager" Name="qc5gnrcoexmgr_ext8350.inf" ID="qc5gnrcoexmgr_ext8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Extensions\Cellular\EMBComponentExtension" Name="qcwmrilextension8350.inf" ID="qcwmrilextension8350"/>
