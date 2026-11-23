@@ -9,7 +9,7 @@
   </PlatformIDs>
   <FFUFileName>OEMZE_512GB_HalfSplit.ffu</FFUFileName>
   <DriverDefinitionPath>\definitions\Desktop\ARM64\Internal\zeta.xml</DriverDefinitionPath>
-  <DiskTotalSize>0</DiskTotalSize>
+  <DiskTotalSize>494272512000</DiskTotalSize>
   <DiskSectorSize>4096</DiskSectorSize>
   <PartitionLayout>
     <GPTPartition>
