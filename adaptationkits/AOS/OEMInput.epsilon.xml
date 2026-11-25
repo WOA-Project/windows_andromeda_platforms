@@ -2,10 +2,9 @@
 <OEMInput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate">
     <Description>AndromedaOS Andromeda855 Selfhost FFU generated with arm64.fre on rs_prerelease_cfga. Built at 20160101-0000 by WindowsDeveloper</Description>
     <Product>Andromeda OS</Product>
-    <SV>Microsoft</SV>
-    <SOC>ANDROMEDA855</SOC>
+    <SV>Qualcomm</SV>
+    <SOC>Andromeda855</SOC>
     <Device>Andromeda855</Device>
-    <MachineInfoFile>%_NTTREE%\machineinfo.xml</MachineInfoFile>
     <ReleaseType>Test</ReleaseType>
     <SupportedLanguages>
         <UserInterface>
@@ -25,18 +24,24 @@
         <Resolution>1350x1800</Resolution>
     </Resolutions>
     <AdditionalFMs>
-        <AdditionalFM>%WSKContentRoot%\FMFiles\arm64\AndromedaOS\AndromedaAppsFM.xml</AdditionalFM>
-        <AdditionalFM>%WSKContentRoot%\FMFiles\arm64\AndromedaOS\AndromedaSelfHostFM.xml</AdditionalFM>
-        <AdditionalFM>%WSKContentRoot%\FMFiles\arm64\AndromedaOS\AOSNonProductionFM.xml</AdditionalFM>
         <AdditionalFM>%WSKContentRoot%\FMFiles\arm64\AndromedaOS\MobileDeviceSpaceFM.xml</AdditionalFM>
+        <AdditionalFM>%WSKContentRoot%\FMFiles\arm64\AndromedaOS\AndromedaAppsFM.xml</AdditionalFM>
+        <AdditionalFM>%WSKContentRoot%\FMFiles\arm64\AndromedaOS\AOSNonProductionFM.xml</AdditionalFM>
+        <AdditionalFM>%WSKContentRoot%\FMFiles\arm64\AndromedaOS\AndromedaSelfHostFM.xml</AdditionalFM>
         <AdditionalFM>%WSKContentRoot%\FMFiles\arm64\AndromedaOS\WindowsCoreNonProductionFM.xml</AdditionalFM>
-        <AdditionalFM>%_NTTREE%\Andromeda855DeviceFM.xml</AdditionalFM>
+        <AdditionalFM>%_NTTREE%\AND855PartnerFM.xml</AdditionalFM>
+        <AdditionalFM>%_NTTREE%\AND855DeviceFM.xml</AdditionalFM>
         <AdditionalFM>%_NTTREE%\Andromeda855DeviceDriversFM.xml</AdditionalFM>
     </AdditionalFMs>
     <Features>
         <Microsoft>
             <Feature>ALLOW_CONNECTEDSTANDBY</Feature>
+            <Feature>AND_NONFACTORY</Feature>
+            <Feature>AND45_SELFHOST_BSPTARGETING</Feature>
+            <Feature>ANDROMEDA_TEST_DRIVERS</Feature>
+            <Feature>ANDROMEDA_TEST_TOOLS</Feature>
             <Feature>CAD_CHARGING</Feature>
+            <Feature>OFFLINE_CRASH_DUMP_ENABLED</Feature>
             <Feature>RESOLUTION_1350x1800</Feature>
             <Feature>SCALEFACTOR250_ON</Feature>
             <Feature>SELFHOST</Feature>
@@ -44,6 +49,9 @@
             <Feature>STATESEPARATION_ON</Feature>
             <Feature>USB_NET_DONGLE</Feature>
         </Microsoft>
+        <OEM>
+            <Feature>AND_OEM_NONFACTORY</Feature>
+        </OEM>
     </Features>
     <AppXOptionalPackages>
         <AppXID>Microsoft.5967852151392_8wekyb3d8bbwe</AppXID>

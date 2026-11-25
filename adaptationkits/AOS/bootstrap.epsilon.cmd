@@ -27,6 +27,9 @@ echo Copying WSK Components...
 mkdir .\tools
 xcopy /cheriky "%ProgramFiles(x86)%\Windows Kits\10\tools" .\tools\
 
+echo Copying Patched WSK Components...
+xcopy /cheriky %CD%\_kitpatches\*.dll .\tools\bin\i386\
+
 echo Launching ImageApp...
 set WSKContentRoot=%CD%
 call build.epsilon.cmd

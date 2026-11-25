@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FeatureManifest
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate"
+    Revision="1"
+    SchemaVersion="1.3"
+    ReleaseType="Production"
+    OwnerType="Microsoft"
+    ID="AND855PartnerFM">
+
+  <BasePackages>
+
+    <PackageFile
+        Path="$(mspackageroot)\Retail\$(cputype)\$(buildtype)"
+        ID="Microsoft-Andromeda-ImageCustomization-AND35-Package" />
+
+    <PackageFile
+        Path="$(mspackageroot)\Retail\$(cputype)\$(buildtype)"
+        ID="Microsoft-Andromeda-AND45-OEM-Customization-Package" />
+
+    <PackageFile
+        Path="$(mspackageroot)\Retail\$(cputype)\$(buildtype)"
+        ID="Microsoft-OneCore-EnableBasicDisplayFallback-Package" />
+
+    <PackageFile
+        Path="$(mspackageroot)\Retail\$(cputype)\$(buildtype)"
+        ID="Microsoft-OneCore-Composition-GpuAccelInk-Package" />
+
+    <PackageFile
+        Path="$(mspackageroot)\Retail\$(cputype)\$(buildtype)"
+        Name="Microsoft.AndromedaOS.AND855PartnerFM~31bf3856ad364e35~ARM64~~.cab"
+        FeatureIdentifierPackage="true"
+        ID="Microsoft.AndromedaOS.AND855PartnerFM" />
+
+  </BasePackages>
+
+  <Features>
+
+    <Microsoft />
+
+    <MSConditionalFeatures>
+
+      <ConditionalFeature
+          UpdateAction="Add"
+          FeatureID="BASE"
+          FMID="AND855PARTNERFM">
+
+        <Condition
+            Type="Feature"
+            Name="BASE"
+            FMID="AND855DEVICEFM" />
+
+      </ConditionalFeature>
+
+      <ConditionalFeature
+          UpdateAction="Add"
+          FeatureID="DEVICELAYOUT_ANDROMEDA855"
+          FMID="AND855PARTNERFM">
+
+        <Condition
+            Type="Feature"
+            Name="SOC_ANDROMEDA855"
+            FMID="AND855PARTNERFM" />
+
+      </ConditionalFeature>
+
+    </MSConditionalFeatures>
+
+  </Features>
+
+  <DeviceLayoutPackages>
+
+    <PackageFile
+        Path="$(mspackageroot)\Andromeda855\$(cputype)\$(buildtype)"
+        FeatureIdentifierPackage="true"
+        CPUType="ARM64"
+        ID="Microsoft-OneCore-Andromeda855-DeviceLayout-Package"
+        SOC="ANDROMEDA855" />
+
+    <PackageFile
+        Path="$(mspackageroot)\Retail\$(cputype)\$(buildtype)"
+        Name="Microsoft.AndromedaOS.DEVICELAYOUT_ANDROMEDA855.ANDOSANDDEV.FIP~31bf3856ad364e35~ARM64~~.cab"
+        ID="Microsoft.AndromedaOS.DEVICELAYOUT_ANDROMEDA855.ANDOSANDDEV.FIP"
+        SOC="ANDROMEDA855" />
+
+  </DeviceLayoutPackages>
+
+</FeatureManifest>

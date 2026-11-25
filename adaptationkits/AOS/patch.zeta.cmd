@@ -11,7 +11,3 @@ REM issue in the firmware so this will do til pigs will have wings
 takeown /F %MainOS%\Windows\System32\EnableWcosUefiSbTest.exe
 icacls %MainOS%\Windows\System32\EnableWcosUefiSbTest.exe /grant Users:F
 ren %MainOS%\Windows\System32\EnableWcosUefiSbTest.exe EnableWcosUefiSbTest.exe.bak
-
-rem reg load HKLM\RTS %MainOS%\Windows\System32\config\SYSTEM
-rem reg import RIL.reg
-rem reg unload HKLM\RTS
