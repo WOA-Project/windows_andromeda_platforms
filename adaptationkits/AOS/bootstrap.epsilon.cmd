@@ -45,8 +45,12 @@ echo Getting MainOS Drive Letter...
 powershell -command "Get-Partition -Volume (Get-Volume -FileSystemLabel MainOS) | Set-Partition -NewDriveLetter W"
 set MainOSDriveLetter=W:
 
+echo Getting VIRT_EFIESP Drive Letter...
+powershell -command "Get-Partition -Volume (Get-Volume -FileSystemLabel VIRT_EFIESP) | Set-Partition -NewDriveLetter Z"
+set VIRT_EFIESPDriveLetter=Z:
+
 echo Patching...
-call patch.epsilon.cmd %EFIESPDriveLetter% %MainOSDriveLetter%
+call patch.epsilon.cmd %EFIESPDriveLetter% %MainOSDriveLetter% %VIRT_EFIESPDriveLetter%
 
 echo Unmounting VHDX...
 powershell -command "Dismount-DiskImage -ImagePath '%CD%\Output\Flash.vhdx'"

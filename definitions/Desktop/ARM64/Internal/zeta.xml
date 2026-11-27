@@ -1,6 +1,6 @@
 <!-- @@BEGIN_SDKSPLIT
   
-  Andromeda888/OEMZE BSP Definition file v2411.80
+  Andromeda888/OEMZE BSP Definition file v2611.73
   
   This is the file that dictates which drivers to install onto Andromeda888 devices
   It also instructs which apps should be installed onto the target device.
@@ -66,8 +66,9 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\WindowsPhone" Name="WindowsPhone.inf" ID="WindowsPhone"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Customizations" Name="SurfaceDuo2_MTPOEM.inf" ID="SurfaceDuo2_MTPOEM"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\DisplayConfigurator" Name="SurfaceDisplayConfiguratorService.inf" ID="SurfaceDisplayConfiguratorService"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\KMDOD" Name="sampledisplay.inf" ID="sampledisplay"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\Monitor" Name="SurfacePanel.inf" ID="SurfacePanel"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\OemPanel" Name="SDPDriver.inf" ID="SDPDriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\OemPanel" Name="sdpdriver.inf" ID="sdpdriver"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Integration\Service" Name="SurfaceServiceNullDriver.inf" ID="SurfaceServiceNullDriver"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Integration\System" Name="SurfaceIntegrationDriver.inf" ID="SurfaceIntegrationDriver"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\NFC" Name="NxpNfcClientDriver.inf" ID="NxpNfcClientDriver"/>
@@ -113,7 +114,6 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Camera\UltraWideSensor" Name="SurfaceDuo2_camultrawidesensor.inf" ID="SurfaceDuo2_camultrawidesensor"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Cellular\IPA" Name="surfaceduo2_ipa.inf" ID="surfaceduo2_ipa"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\EVA" Name="SurfaceDuo2_eva.inf" ID="SurfaceDuo2_eva"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Drivers\Graphics\KMDOD" Name="sampledisplay.inf" ID="sampledisplay"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\SecurityProcessor" Name="SurfaceDuo2_sp8350.inf" ID="SurfaceDuo2_sp8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Sensors\SSC" Name="SurfaceDuo2_sensors.inf" ID="SurfaceDuo2_sensors"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Zeta\Platform\Drivers\Subsystems\CombinedSubsystem" Name="SurfaceDuo2_subsys.inf" ID="SurfaceDuo2_subsys"/>
@@ -261,7 +261,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\IPCC" Name="qcipcc8350.inf" ID="qcipcc8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\LED" Name="qchwnled8350.inf" ID="qchwnled8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PCIe" Name="qcppx8350.inf" ID="qcppx8350"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\Apps" Name="QcPmicApps8350.inf" ID="QcPmicApps8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\Apps" Name="qcpmicapps8350.inf" ID="qcpmicapps8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\Core" Name="qcpmic8350.inf" ID="qcpmic8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\GLINK" Name="QcPmicGlink8350.inf" ID="QcPmicGlink8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Drivers\SOC\PMIC\GPIO" Name="qcpmicgpio8350.inf" ID="qcpmicgpio8350"/>

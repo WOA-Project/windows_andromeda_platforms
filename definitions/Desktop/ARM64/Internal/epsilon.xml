@@ -1,6 +1,6 @@
 <!-- @@BEGIN_SDKSPLIT
   
-  Andromeda855/OEMEP BSP Definition file v2411.80
+  Andromeda855/OEMEP BSP Definition file v2611.73
   
   This is the file that dictates which drivers to install onto Andromeda855 devices
   It also instructs which apps should be installed onto the target device.
@@ -70,7 +70,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Drivers\Battery" Name="SurfaceDuo_BattMiniclassExt.inf" ID="SurfaceDuo_BattMiniclassExt"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Drivers\Graphics\DisplayConfigurator" Name="SurfaceDisplayConfiguratorService.inf" ID="SurfaceDisplayConfiguratorService"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Drivers\Graphics\Monitor" Name="SurfaceOemPanel.inf" ID="SurfaceOemPanel"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Drivers\Graphics\OemPanel" Name="SDPDriver.inf" ID="SDPDriver"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Drivers\Graphics\OemPanel" Name="sdpdriver.inf" ID="sdpdriver"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Drivers\Haptics" Name="SurfaceHaptics.inf" ID="SurfaceHaptics"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Drivers\Integration\Service" Name="SurfaceServiceNullDriver.inf" ID="SurfaceServiceNullDriver"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Epsilon\Drivers\Integration\System" Name="SurfaceIntegrationDriver.inf" ID="SurfaceIntegrationDriver"/>
